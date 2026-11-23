@@ -370,7 +370,9 @@ function setLanguage(lang) {
   document.getElementById('contact-tag').textContent = t.contact.tag;
   document.getElementById('contact-title').textContent = t.contact.title;
   document.getElementById('contact-email-title').textContent = t.contact.emailTitle;
-  document.getElementById('contact-phone-title').textContent = t.contact.phoneTitle;
+  if (document.getElementById('contact-phone-title')) {
+    document.getElementById('contact-phone-title').textContent = t.contact.phoneTitle;
+  }
   document.getElementById('contact-loc-title').textContent = t.contact.locationTitle;
   document.getElementById('contact-loc-val').textContent = t.contact.locationVal;
 
