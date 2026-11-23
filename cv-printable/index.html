@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CV — Elena García Sánchez (1 Página A4)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 0;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      width: 210mm;
+      height: 297mm;
+      max-height: 297mm;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #1e293b;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 8.6pt;
+      line-height: 1.38;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+      overflow: hidden;
+    }
+
+    .cv-container {
+      display: flex;
+      width: 210mm;
+      height: 297mm;
+      max-height: 297mm;
+      overflow: hidden;
+    }
+
+    /* ==========================================================================
+       SIDEBAR (Columna Izquierda ~66mm) - Paleta Violeta / Índigo / Slate
+       ========================================================================== */
+    .cv-sidebar {
+      width: 66mm;
+      min-width: 66mm;
+      max-width: 66mm;
+      height: 297mm;
+      background-color: #0c0d20;
+      background-image: 
+        radial-gradient(circle at 18% 12%, rgba(139, 92, 246, 0.28) 0%, transparent 48%),
+        radial-gradient(circle at 82% 40%, rgba(236, 72, 153, 0.18) 0%, transparent 45%),
+        radial-gradient(circle at 25% 78%, rgba(6, 182, 212, 0.20) 0%, transparent 46%),
+        radial-gradient(rgba(168, 85, 247, 0.14) 1px, transparent 1px),
+        linear-gradient(180deg, #11112b 0%, #070714 100%);
+      background-size: 100% 100%, 100% 100%, 100% 100%, 14px 14px, 100% 100%;
+      color: #e2e8f0;
+      padding: 10mm 5.8mm 8mm 5.8mm;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-right: 1.5px solid rgba(168, 85, 247, 0.35);
+      position: relative;
+    }
+
+    .avatar-wrapper {
+      text-align: center;
+      margin-bottom: 8.5mm;
+    }
+
+    .avatar-img {
+      width: 38mm;
+      height: 38mm;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2.5px solid #a855f7;
+      box-shadow: 0 0 18px rgba(168, 85, 247, 0.45);
+      display: inline-block;
+    }
+
+    .side-section {
+      margin-bottom: 9mm;
+    }
+
+    .side-title {
+      font-size: 8.4pt;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #c084fc;
+      border-bottom: 1px solid rgba(168, 85, 247, 0.35);
+      padding-bottom: 1.4mm;
+      margin-bottom: 3.4mm;
+      display: flex;
+      align-items: center;
+      gap: 1.8mm;
+    }
+
+    .side-item {
+      font-size: 7.8pt;
+      color: #cbd5e1;
+      margin-bottom: 3.2mm;
+      line-height: 1.38;
+    }
+
+    .side-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .side-item strong {
+      color: #ffffff;
+      display: block;
+      font-size: 8.0pt;
+    }
+
+    .side-item em {
+      font-style: normal;
+      color: #a5b4fc;
+      font-size: 7.4pt;
+      display: block;
+      margin-top: 0.4mm;
+    }
+
+    .contact-row {
+      display: flex;
+      align-items: center;
+      gap: 2.2mm;
+      font-size: 7.6pt;
+      color: #e2e8f0;
+      margin-bottom: 2.8mm;
+      word-break: break-all;
+    }
+
+    .contact-row:last-child {
+      margin-bottom: 0;
+    }
+
+    .contact-row a {
+      color: #e2e8f0;
+      text-decoration: none;
+    }
+
+    .contact-icon {
+      color: #c084fc;
+      font-size: 8.2pt;
+      min-width: 3.8mm;
+      text-align: center;
+    }
+
+    .lang-row {
+      display: flex;
+      align-items: baseline;
+      gap: 2.5mm;
+      font-size: 7.6pt;
+      color: #cbd5e1;
+      margin-top: 1mm;
+    }
+
+    .lang-row span strong {
+      display: inline !important;
+      color: #ffffff;
+    }
+
+    .qr-container {
+      background: rgba(18, 16, 40, 0.9);
+      border: 1px solid rgba(168, 85, 247, 0.45);
+      border-radius: 6px;
+      padding: 3mm 3mm 2.5mm 3mm;
+      text-align: center;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+    }
+
+    .qr-title {
+      font-size: 7.6pt;
+      font-weight: 800;
+      color: #c084fc;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 2.2mm;
+      text-align: center;
+    }
+
+    .qr-img-large {
+      width: 28mm;
+      height: 28mm;
+      background: #ffffff;
+      padding: 1.2mm;
+      border-radius: 4px;
+      display: inline-block;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .qr-sub {
+      font-size: 6.2pt;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      color: #a5b4fc;
+      margin-top: 1.5mm;
+    }
+
+    /* ==========================================================================
+       MAIN CONTENT (Columna Derecha ~144mm)
+       ========================================================================== */
+    .cv-main {
+      width: 144mm;
+      min-width: 144mm;
+      max-width: 144mm;
+      height: 297mm;
+      padding: 9.5mm 8.5mm 7.5mm 8.5mm;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+
+    /* Header */
+    .cv-header {
+      margin-bottom: 3.8mm;
+      border-bottom: 1.5px solid #e2e8f0;
+      padding-bottom: 3.5mm;
+      text-align: center;
+    }
+
+    .header-name {
+      font-size: 23pt;
+      font-weight: 800;
+      color: #111827;
+      letter-spacing: -0.025em;
+      line-height: 1.1;
+      margin-bottom: 1.8mm;
+      text-align: center;
+    }
+
+    .header-role {
+      font-size: 9.8pt;
+      font-weight: 700;
+      color: #7c3aed;
+      margin-bottom: 3.8mm;
+      text-align: center;
+      letter-spacing: -0.01em;
+    }
+
+    .header-summary {
+      font-size: 7.6pt;
+      color: #475569;
+      line-height: 1.42;
+      text-align: justify;
+    }
+
+    .header-summary strong {
+      color: #0f172a;
+    }
+
+    /* Section Titles */
+    .main-section-title {
+      font-size: 8.6pt;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #4c1d95;
+      background: #f5f3ff;
+      border-left: 3px solid #7c3aed;
+      padding: 1.2mm 2.2mm;
+      margin-bottom: 3.5mm;
+      display: flex;
+      align-items: center;
+      gap: 1.8mm;
+    }
+
+    /* Jobs */
+    .job-item {
+      margin-bottom: 4.8mm;
+      page-break-inside: avoid;
+    }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 2mm;
+      margin-bottom: 0.6mm;
+    }
+
+    .job-title-group {
+      display: flex;
+      align-items: baseline;
+      flex-wrap: nowrap;
+      gap: 1mm;
+      white-space: nowrap;
+      overflow: hidden;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .job-client-highlight {
+      color: #7c3aed;
+      font-weight: 800;
+      font-size: 8.5pt;
+    }
+
+    .job-sep {
+      color: #94a3b8;
+      font-weight: 600;
+    }
+
+    .job-role-text {
+      font-size: 7.8pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .job-company-tag {
+      font-size: 7.4pt;
+      font-weight: 600;
+      color: #64748b;
+    }
+
+    .job-date {
+      font-size: 7.3pt;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      color: #b45309;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .job-company-sub {
+      font-size: 7.3pt;
+      font-weight: 600;
+      color: #64748b;
+      margin-bottom: 1mm;
+    }
+
+    .job-bullets {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .job-bullet {
+      font-size: 7.3pt;
+      color: #334155;
+      line-height: 1.34;
+      position: relative;
+      padding-left: 3.2mm;
+      margin-bottom: 0.8mm;
+    }
+
+    .job-bullet::before {
+      content: "▪";
+      position: absolute;
+      left: 0.5mm;
+      color: #7c3aed;
+      font-size: 7.2pt;
+      top: -0.2mm;
+    }
+
+    .job-bullet strong {
+      color: #0f172a;
+    }
+
+    .job-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2mm;
+      margin-top: 1.2mm;
+    }
+
+    .job-tag {
+      font-size: 6.5pt;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      background: #f8fafc;
+      color: #334155;
+      border: 1px solid #cbd5e1;
+      padding: 0.3mm 1.3mm;
+      border-radius: 2px;
+      line-height: 1.2;
+    }
+
+    .tag-accent {
+      background: #f5f3ff;
+      color: #6d28d9;
+      border-color: #ddd6fe;
+      font-weight: 600;
+    }
+
+    /* Skills Section & Cards */
+    .skills-section {
+      margin-top: 4mm;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3.5mm 4.5mm;
+    }
+
+    .skill-card {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-left: 3.2px solid #7c3aed;
+      border-radius: 4px;
+      padding: 3.2mm 3.8mm;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    }
+
+    .skill-card-title {
+      font-size: 8.0pt;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 1mm;
+      display: flex;
+      align-items: center;
+      gap: 1.5mm;
+    }
+
+    .skill-card-title span.icon {
+      font-size: 8.2pt;
+    }
+
+    .skill-card-body {
+      font-size: 7.4pt;
+      line-height: 1.4;
+      color: #334155;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv-container">
+    
+    <!-- ==========================================
+         COLUMNA LATERAL (Sidebar ~66mm)
+         ========================================== -->
+    <aside class="cv-sidebar">
+      <div>
+        <!-- Foto -->
+        <div class="avatar-wrapper">
+          <img src="assets/avatar.jpg" alt="Elena García Sánchez" class="avatar-img">
+        </div>
+
+        <!-- Contacto -->
+        <div class="side-section">
+          <div class="side-title"><span>📞</span> Contacto</div>
+          <div class="contact-row">
+            <span class="contact-icon">📱</span>
+            <span>+34 686 66 40 67</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-icon">✉️</span>
+            <span>elenita1292@gmail.com</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-icon">📍</span>
+            <span>Madrid, España</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-icon">💼</span>
+            <span>linkedin.com/in/elenags</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-icon">🐙</span>
+            <span>github.com/ElenaGSSG</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-icon">🌐</span>
+            <span>elenagssg.github.io/ElenaGS</span>
+          </div>
+        </div>
+
+        <!-- Formación Académica -->
+        <div class="side-section">
+          <div class="side-title"><span>🎓</span> Formación</div>
+          <div class="side-item">
+            <strong>Ingeniería Informática de Sistemas</strong>
+            <em>Univ. de Alcalá de Henares (UAH) · 2014</em>
+            <span>Especialización en sistemas, algoritmia y arquitecturas de software empresarial.</span>
+          </div>
+        </div>
+
+        <!-- Formación Continua & Especialización -->
+        <div class="side-section">
+          <div class="side-title"><span>📜</span> Certificaciones</div>
+          <div class="side-item">
+            <strong>+50 Cursos Técnicos Acreditados</strong>
+            <em>OpenWebinars · Udemy · Coursera · Tutellus</em>
+          </div>
+          <div class="side-item" style="margin-top: 2.2mm;">
+            <strong>Desarrollo Web HTML5 & Visual Studio</strong>
+            <em>Especialización en interfaces web modernas (30 h)</em>
+          </div>
+          <div class="side-item" style="margin-top: 2.2mm;">
+            <strong>Especialización Gráficos 3D & Simulación</strong>
+            <em>Univ. de Alcalá (UAH) · 195 h acreditadas</em>
+          </div>
+        </div>
+
+        <!-- Idiomas -->
+        <div class="side-section">
+          <div class="side-title"><span>🌐</span> Idiomas</div>
+          <div class="lang-row">
+            <span><strong>Español:</strong> Nativo</span>
+            <span style="color: #64748b;">·</span>
+            <span><strong>Inglés:</strong> B2</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- QR Code interactivo -->
+      <div class="qr-container">
+        <div class="qr-title">CV Interactivo Online</div>
+        <img src="assets/qr-portfolio.png" alt="QR Web CV" class="qr-img-large">
+        <div class="qr-sub">elenagssg.github.io/ElenaGS</div>
+      </div>
+    </aside>
+
+    <!-- ==========================================
+         COLUMNA PRINCIPAL (Cuerpo ~144mm)
+         ========================================== -->
+    <main class="cv-main">
+      <div>
+        <!-- Cabecera Personal -->
+        <header class="cv-header">
+          <h1 class="header-name">Elena García Sánchez</h1>
+          <div class="header-role">Senior Java & Fullstack Software Engineer · Backend & Enterprise Systems</div>
+          <p class="header-summary">
+            <strong>Ingeniera Técnica en Informática de Sistemas</strong> por la Universidad de Alcalá (UAH) con <strong>+14 años de trayectoria profesional ininterrumpida</strong> (en activo desde 2011). Especializada en el ecosistema empresarial <strong>Java (Java 6, 7, 8 y 11, Lambdas y Streams)</strong>, frameworks <strong>Spring y Spring Boot</strong>, diseño e integración de <strong>servicios REST y SOAP</strong>, optimización avanzada sobre <strong>Oracle SQL</strong> y desarrollo Fullstack con <strong>Angular</strong>. Sólida experiencia en sectores de alta disponibilidad y criticidad: <strong>Administración Pública</strong> (Gobierno de Cantabria, Seguridad Social), <strong>Banca Internacional</strong> (Deutsche Bank) y <strong>Telecomunicaciones</strong> (Orange).
+          </p>
+        </header>
+
+        <!-- Experiencia Laboral -->
+        <section>
+          <div class="main-section-title">
+            <span>💼</span> Experiencia Laboral Principal (2011 — Actualidad)
+          </div>
+
+          <!-- 1. Gobierno de Cantabria (Plexus Tech) -->
+          <article class="job-item" style="border-bottom: 1px dashed #cbd5e1; padding-bottom: 3mm; margin-bottom: 4mm;">
+            <div class="job-header">
+              <div class="job-title-group">
+                <span class="job-client-highlight">Gob. de Cantabria</span>
+                <span class="job-sep">—</span>
+                <span class="job-role-text">Desarrolladora Senior Fullstack</span>
+                <span class="job-company-tag">[Plexus]</span>
+              </div>
+              <div class="job-date">Oct. 2024 — Actualidad</div>
+            </div>
+            <div class="job-company-sub">Plexus Tech · Plataforma Corporativa de Gestión Pública · Remoto</div>
+            <ul class="job-bullets">
+              <li class="job-bullet"><strong>Análisis funcional y técnico:</strong> Requisitos, diseño de casos de uso y ejecución rigurosa de planes de pruebas de integración para el sistema corporativo Puntal.</li>
+              <li class="job-bullet"><strong>Desarrollo Full-stack:</strong> Servicios backend en <strong>Java con Spring Boot</strong> y desarrollo de vistas web reactivas con <strong>Angular</strong>.</li>
+              <li class="job-bullet"><strong>Persistencia & Optimización SQL:</strong> Diseño, modelado y optimización de consultas y procedimientos sobre <strong>Oracle SQL</strong> de alta criticidad.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="job-tag tag-accent">Java 11 / 17</span>
+              <span class="job-tag tag-accent">Spring Boot</span>
+              <span class="job-tag tag-accent">Angular</span>
+              <span class="job-tag">Oracle SQL</span>
+              <span class="job-tag">REST APIs</span>
+              <span class="job-tag">Gitflow</span>
+              <span class="job-tag">Redmine</span>
+            </div>
+          </article>
+
+          <!-- 2. Seguridad Social (Inetum / GrupoSolutia) -->
+          <article class="job-item" style="border-bottom: 1px dashed #cbd5e1; padding-bottom: 2.5mm; margin-bottom: 3.5mm;">
+            <div class="job-header">
+              <div class="job-title-group">
+                <span class="job-client-highlight">Seguridad Social</span>
+                <span class="job-sep">—</span>
+                <span class="job-role-text">Analista Desarrolladora Java</span>
+                <span class="job-company-tag">[Inetum]</span>
+              </div>
+              <span class="job-date">Ene. 2020 — Oct. 2024 (4a 10m)</span>
+            </div>
+            <ul class="job-bullets">
+              <li class="job-bullet">Análisis y desarrollo integral de aplicativos Java de alta criticidad ciudadana bajo marco metodológico <strong>AGILE (Scrum)</strong> y refactorización con <strong>Lambdas y Streams</strong>.</li>
+              <li class="job-bullet">Aseguramiento riguroso de calidad de código mediante suites de pruebas con <strong>ALM</strong> y análisis estático con <strong>Kiuwan</strong>.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="job-tag">Java 8 / 11</span>
+              <span class="job-tag">Spring Framework</span>
+              <span class="job-tag">Lambdas</span>
+              <span class="job-tag">ALM Testing</span>
+              <span class="job-tag">Kiuwan</span>
+              <span class="job-tag">Gitflow</span>
+              <span class="job-tag">Jira</span>
+            </div>
+          </article>
+
+          <!-- 3. Deutsche Bank (CGI) -->
+          <article class="job-item" style="border-bottom: 1px dashed #cbd5e1; padding-bottom: 2.5mm; margin-bottom: 3.5mm;">
+            <div class="job-header">
+              <div class="job-title-group">
+                <span class="job-client-highlight">Deutsche Bank</span>
+                <span class="job-sep">—</span>
+                <span class="job-role-text">Analista Desarrolladora Bancaria</span>
+                <span class="job-company-tag">[CGI]</span>
+              </div>
+              <span class="job-date">Ene. 2018 — Ene. 2020 (2 años)</span>
+            </div>
+            <ul class="job-bullets">
+              <li class="job-bullet">Ciclo de vida completo de aplicaciones core bancarias: toma de requisitos de negocio, desarrollo de evolutivos y testing funcional.</li>
+              <li class="job-bullet">Mantenimiento de integración continua, despliegues a entornos productivos y coordinación técnica inter-equipos.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="job-tag">Java</span>
+              <span class="job-tag">Spring</span>
+              <span class="job-tag">Core Bancario</span>
+              <span class="job-tag">SQL</span>
+              <span class="job-tag">Unix</span>
+              <span class="job-tag">SVN</span>
+              <span class="job-tag">ServiceNow</span>
+            </div>
+          </article>
+
+          <!-- 4. Orange (CGI) -->
+          <article class="job-item" style="margin-bottom: 0;">
+            <div class="job-header">
+              <div class="job-title-group">
+                <span class="job-client-highlight">Orange</span>
+                <span class="job-sep">—</span>
+                <span class="job-role-text">Ingeniera Desarrollo & Testing QA</span>
+                <span class="job-company-tag">[CGI]</span>
+              </div>
+              <span class="job-date">Jun. 2011 — Ene. 2018 (6a 7m)</span>
+            </div>
+            <ul class="job-bullets">
+              <li class="job-bullet">Análisis técnico, desarrollo de evolutivos y mantenimiento correctivo/preventivo en plataformas operativas de telecomunicaciones.</li>
+              <li class="job-bullet">Diseño y ejecución de baterías de pruebas (QA Tester), verificación funcional e integración de sistemas sobre arquitecturas Unix y Java.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="job-tag">Java</span>
+              <span class="job-tag">Spring</span>
+              <span class="job-tag">PL/SQL</span>
+              <span class="job-tag">Telecom</span>
+              <span class="job-tag">QA Tester</span>
+              <span class="job-tag">Powerbuilder</span>
+              <span class="job-tag">C++</span>
+            </div>
+          </article>
+        </section>
+      </div>
+
+      <!-- Stack Tecnológico & Especialización Técnica -->
+      <section class="skills-section">
+        <div class="main-section-title">
+          <span>🛠️</span> Stack Tecnológico & Especialización Técnica
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-card-title"><span class="icon">☕</span> Arquitectura Backend & Core</div>
+            <div class="skill-card-body">
+              Java (6 a 11), Spring Boot, Spring MVC, Lambdas & Streams, Web Services REST / SOAP, Hibernate / JPA.
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-title"><span class="icon">🗄️</span> Bases de Datos & SQL</div>
+            <div class="skill-card-body">
+              Oracle SQL, PostgreSQL, MySQL, MariaDB, PL/SQL, modelado relacional, optimización de queries y procedimientos.
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-title"><span class="icon">💻</span> Frontend & Fullstack</div>
+            <div class="skill-card-body">
+              Angular, TypeScript, JavaScript, HTML5, CSS3, consumo de endpoints REST, diseño responsive y UX web.
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-title"><span class="icon">⚙️</span> DevOps, QA & Metodologías</div>
+            <div class="skill-card-body">
+              Git / Gitflow, SVN, Jenkins CI/CD, Kiuwan, suites de prueba ALM, Scrum / Agile, Jira, Confluence, ServiceNow.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </div>
+
+</body>
+</html>
