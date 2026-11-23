@@ -409,7 +409,7 @@ function initConstellationCanvas() {
 
   const particleCount = Math.min(Math.floor((width * height) / 14000), 85);
   const particles = [];
-  const colors = ['#c084fc', '#8b5cf6', '#ec4899', '#06b6d4', '#e2e8f0'];
+  const colors = ['#8b5cf6', '#a855f7', '#ec4899', '#0284c7', '#6366f1'];
 
   for (let i = 0; i < particleCount; i++) {
     particles.push({
@@ -417,9 +417,9 @@ function initConstellationCanvas() {
       y: Math.random() * height,
       vx: (Math.random() - 0.5) * 0.45,
       vy: (Math.random() - 0.5) * 0.45,
-      radius: Math.random() * 1.8 + 0.6,
+      radius: Math.random() * 1.8 + 0.8,
       color: colors[Math.floor(Math.random() * colors.length)],
-      alpha: Math.random() * 0.5 + 0.25
+      alpha: Math.random() * 0.45 + 0.35
     });
   }
 
@@ -462,9 +462,9 @@ function initConstellationCanvas() {
           ctx.beginPath();
           ctx.moveTo(p.x, p.y);
           ctx.lineTo(mouse.x, mouse.y);
-          ctx.strokeStyle = '#c084fc';
-          ctx.globalAlpha = (1 - dist / mouse.maxDist) * 0.35;
-          ctx.lineWidth = 0.8;
+          ctx.strokeStyle = '#8b5cf6';
+          ctx.globalAlpha = (1 - dist / mouse.maxDist) * 0.45;
+          ctx.lineWidth = 0.9;
           ctx.stroke();
         }
       }
@@ -480,9 +480,9 @@ function initConstellationCanvas() {
           ctx.beginPath();
           ctx.moveTo(p.x, p.y);
           ctx.lineTo(p2.x, p2.y);
-          ctx.strokeStyle = '#8b5cf6';
-          ctx.globalAlpha = (1 - dist / 110) * 0.18;
-          ctx.lineWidth = 0.6;
+          ctx.strokeStyle = '#c4b5fd';
+          ctx.globalAlpha = (1 - dist / 110) * 0.35;
+          ctx.lineWidth = 0.7;
           ctx.stroke();
         }
       }
