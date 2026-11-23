@@ -5,10 +5,10 @@
 > Especializada en el ecosistema empresarial Java (Java 6, 7, 8 y 11, expresiones Lambda y Streams), frameworks Spring y Spring Boot, diseño e integración de servicios REST y SOAP, optimización avanzada sobre bases de datos relacionales (Oracle SQL, PL/SQL) y desarrollo Fullstack con Angular. Amplia trayectoria en proyectos de máxima criticidad y alta disponibilidad: Administración Pública (Gobierno de Cantabria, Seguridad Social), Banca Internacional (Deutsche Bank) y Telecomunicaciones (Orange).
 
 <p align="left">
-  <a href="https://elenagssg.github.io/ElenaGS/">
+  <a href="https://elenagssg.github.io/ElenaGSSGSGSG/">
     <img src="https://img.shields.io/badge/Interactive_Web_CV-Explore_Profile_%26_Career-7c3aed?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Online Interactive CV & Career" />
   </a>
-  <a href="https://elenagssg.github.io/ElenaGS/#experiencia">
+  <a href="https://elenagssg.github.io/ElenaGSSGSGSG/#experiencia">
     <img src="https://img.shields.io/badge/Experience-15%2B_Years_(Since_2011)-8b5cf6?style=for-the-badge&logo=codeforces&logoColor=white" alt="15+ Years Experience" />
   </a>
   <a href="https://www.linkedin.com/in/elenags/">
@@ -22,7 +22,7 @@
 ---
 
 ### 🌐 Online Interactive CV & Career Profile
-👉 **Explora la versión web interactiva completa:** [**https://elenagssg.github.io/ElenaGS/**](https://elenagssg.github.io/ElenaGS/)  
+👉 **Explora la versión web interactiva completa:** [**https://elenagssg.github.io/ElenaGSSGSGSG/**](https://elenagssg.github.io/ElenaGSSGSGSG/)  
 📥 **Descarga directa de CV oficial en PDF (1 Página A4):** [**Descargar CV_Elena_Garcia_Sanchez.pdf**](assets/docs/CV_Elena_Garcia_Sanchez.pdf)
 
 ---
@@ -176,7 +176,7 @@ El script invoca Chrome/Edge headless, valida el layout en una única página A4
 - 📍 **Ubicación:** Madrid, España (Disponible para modalidad Remota)
 - 💼 **LinkedIn:** [linkedin.com/in/elenags](https://www.linkedin.com/in/elenags/)
 - 🐙 **GitHub:** [github.com/ElenaGSSG](https://github.com/ElenaGSSGSG)
-- 🌐 **Web CV:** [https://elenagssg.github.io/ElenaGS/](https://elenagssg.github.io/ElenaGS/)
+- 🌐 **Web CV:** [https://elenagssg.github.io/ElenaGSSGSGSG/](https://elenagssg.github.io/ElenaGSSGSGSG/)
 
 ---
 
