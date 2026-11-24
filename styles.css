@@ -366,6 +366,12 @@ body {
   color: #6d28d9;
 }
 
+.hero-pill-ai {
+  background: #fdf2f8;
+  border-color: rgba(236, 72, 153, 0.35);
+  color: #be185d;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;

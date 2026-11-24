@@ -24,12 +24,14 @@ const translations = {
       contact: "Contacto"
     },
     hero: {
-      role: "Senior Java & Fullstack Software Engineer · Backend & Enterprise Systems",
+      role: "Senior Java Backend Engineer · Enterprise Systems & AI Tools",
       status: "En activo · Gob. de Cantabria",
       pillCompany: "🏢 Plexus Tech · Gob. Cantabria (Actualidad)",
-      pillCore: "☕ Java Empresarial · Spring Boot & REST APIs",
+      pillCore: "☕ Java Backend Specialist · Spring Boot & REST APIs",
+      pillAi: "🤖 Claude, Cursor & Antigravity AI",
       pillEdu: "🎓 Ing. en Informática de Sistemas (UAH)",
       pillExp: `⚡ +${expYears} años de experiencia`,
+      pillAngular: "💻 Angular (Frontend Secundario)",
       pillLocation: "📍 Madrid / Remoto (España)",
       pillLang: "🌐 Inglés B2 · Español Nativo",
       btnEmail: "Contactar por Email",
@@ -40,17 +42,17 @@ const translations = {
     summary: {
       tag: "Perfil Profesional",
       title: "Resumen Ejecutivo",
-      p1: `<strong>Ingeniera Técnica en Informática de Sistemas</strong> por la Universidad de Alcalá de Henares (UAH) con más de <strong>${expYears} años de trayectoria continuada</strong> (en activo ininterrumpido desde 2011), caracterizada por un sólido dominio en arquitecturas backend empresariales, integración de servicios y desarrollo fullstack.`,
-      p2: `Especializada en el <strong>ecosistema Java (Java 6, 7, 8 y 11, Lambdas y Streams)</strong>, frameworks <strong>Spring y Spring Boot</strong>, servicios web <strong>REST y SOAP</strong>, optimización de persistencia y consultas complejas sobre <strong>Oracle SQL</strong>, y desarrollo de aplicaciones web reactivas con <strong>Angular</strong>.`,
-      p3: `Amplia experiencia en sectores de máxima exigencia operativa y criticidad ciudadana: <strong>Administración Pública</strong> (Gobierno de Cantabria, Seguridad Social), <strong>Banca Internacional</strong> (Deutsche Bank) y <strong>Telecomunicaciones</strong> (Orange), participando activamente en todo el ciclo de vida del software, control de calidad y despliegues productivos.`,
+      p1: `<strong>Ingeniera Técnica en Informática de Sistemas</strong> por la Universidad de Alcalá de Henares (UAH) con más de <strong>${expYears} años de trayectoria continuada</strong> (en activo ininterrumpido desde 2011), especializada como ingeniera de software backend en el desarrollo y evolución de plataformas empresariales críticas.`,
+      p2: `Sólida especialización en el <strong>ecosistema Java backend (Java 6 a 17, Lambdas y Streams)</strong>, frameworks <strong>Spring y Spring Boot</strong>, arquitectura de microservicios y servicios web <strong>REST y SOAP</strong>, optimización avanzada de persistencia y procedimientos en <strong>Oracle SQL / PL-SQL</strong>, y desarrollo frontend complementario con <strong>Angular</strong>. Integración continua de flujos de desarrollo asistido con Inteligencia Artificial mediante <strong>Claude (Anthropic), Cursor IDE y Google Antigravity</strong>.`,
+      p3: `Amplia experiencia técnica en sectores de máxima exigencia operativa y criticidad ciudadana: <strong>Administración Pública</strong> (Gobierno de Cantabria, Seguridad Social), <strong>Banca Internacional</strong> (Deutsche Bank) y <strong>Telecomunicaciones</strong> (Orange), participando activamente en el ciclo de vida del software, diseño técnico, testing riguroso y despliegues productivos.`,
       metricExpVal: `+${expYears}`,
       metricExpLbl: "Años de Trayectoria",
-      metricCoreVal: "Java & Spring",
+      metricCoreVal: "Java & Spring Boot",
       metricCoreLbl: "Especialidad Core Backend",
-      metricSqlVal: "Oracle SQL & Angular",
-      metricSqlLbl: "Persistencia & Fullstack",
-      metricCritVal: "Banca & Sector Público",
-      metricCritLbl: "Sistemas de Alta Criticidad"
+      metricSqlVal: "Oracle SQL & PL-SQL",
+      metricSqlLbl: "Persistencia & Bases de Datos",
+      metricCritVal: "Claude & Cursor AI",
+      metricCritLbl: "Desarrollo Asistido con IA"
     },
     timeline: {
       tag: "Carrera Profesional",
@@ -63,11 +65,11 @@ const translations = {
         telecom: "Orange"
       },
       gobierno: {
-        role: "Desarrolladora Senior Fullstack & Backend en Gobierno de Cantabria (Puntal)",
+        role: "Desarrolladora Senior Backend en Gobierno de Cantabria (Puntal)",
         company: "Plexus Tech · Jornada completa · Remoto",
         date: "Oct. 2024 — Actualidad",
         b1: "<strong>Análisis funcional y técnico:</strong> Toma y definición de requisitos, elaboración de especificaciones de casos de uso y diseño y ejecución rigurosa de planes de pruebas de integración para el sistema corporativo Puntal.",
-        b2: "<strong>Desarrollo Full-stack:</strong> Implementación, modernización y mantenimiento de servicios backend con <strong>Java y ecosistema Spring Boot</strong>, junto con componentes interactivos frontend en <strong>Angular</strong>.",
+        b2: "<strong>Desarrollo Backend & Core:</strong> Servicios y microservicios backend con <strong>Java y Spring Boot</strong>, junto con desarrollo y mantenimiento de vistas reactivas complementarias en <strong>Angular</strong>.",
         b3: "<strong>Optimización y Persistencia SQL:</strong> Modelado relacional, diseño y optimización de consultas complejas y procedimientos sobre bases de datos <strong>Oracle SQL</strong> de alta disponibilidad."
       },
       seguridadsocial: {
@@ -84,7 +86,7 @@ const translations = {
         date: "Ene. 2018 — Ene. 2020 (2 años)",
         b1: "<strong>Ciclo completo de vida de aplicaciones bancarias:</strong> Toma de requerimientos técnicos directamente con stakeholders de la entidad, diseño evolutivo y testing exhaustivo.",
         b2: "<strong>Despliegues y Mantenimiento:</strong> Gestión de despliegues en preproducción y producción en entornos Unix con control de versiones SVN e incidencias en ServiceNow.",
-        b3: "<strong>Coordinación técnica:</strong> Soporte de nivel especializado, resolución de incidencias en entornos transaccionales y coordinación con equipos multidisciplinares."
+        b3: "<strong>Colaboración técnica e integración:</strong> Soporte de nivel especializado, resolución ágil de incidencias en entornos transaccionales y trabajo conjunto con equipos multidisciplinares."
       },
       orange: {
         role: "Ingeniera de Desarrollo & Testing QA en Telecomunicaciones (Orange)",
@@ -98,9 +100,10 @@ const translations = {
     skills: {
       tag: "Especialización",
       title: "Habilidades & Stack Tecnológico",
-      backendTitle: "Arquitectura Backend & Core",
+      backendTitle: "Arquitectura Backend & Core Java",
+      aiTitle: "IA & Desarrollo Asistido",
       dataTitle: "Bases de Datos & SQL",
-      frontTitle: "Frontend & Fullstack",
+      frontTitle: "Frontend Secundario & Web",
       devopsTitle: "DevOps, QA & Metodologías"
     },
     education: {
@@ -130,7 +133,7 @@ const translations = {
       githubTitle: "GitHub"
     },
     footer: {
-      copy: `© ${currentYear} Elena García Sánchez · Senior Java & Fullstack Software Engineer · Madrid, España.`
+      copy: `© ${currentYear} Elena García Sánchez · Senior Java Backend Engineer · Madrid, España.`
     }
   },
   en: {
@@ -142,12 +145,14 @@ const translations = {
       contact: "Contact"
     },
     hero: {
-      role: "Senior Java & Fullstack Software Engineer · Backend & Enterprise Systems",
+      role: "Senior Java Backend Engineer · Enterprise Systems & AI Tools",
       status: "Active · Gov. of Cantabria",
       pillCompany: "🏢 Plexus Tech · Gov. of Cantabria (Present)",
-      pillCore: "☕ Enterprise Java · Spring Boot & REST APIs",
+      pillCore: "☕ Java Backend Specialist · Spring Boot & REST APIs",
+      pillAi: "🤖 Claude, Cursor & Antigravity AI",
       pillEdu: "🎓 B.S. in Computer Systems Engineering (UAH)",
       pillExp: `⚡ +${expYears} years of experience`,
+      pillAngular: "💻 Angular (Secondary Frontend)",
       pillLocation: "📍 Madrid / Remote (Spain)",
       pillLang: "🌐 English B2 · Spanish Native",
       btnEmail: "Contact via Email",
@@ -158,17 +163,17 @@ const translations = {
     summary: {
       tag: "Professional Profile",
       title: "Executive Summary",
-      p1: `<strong>Computer Systems Engineer</strong> graduated from Universidad de Alcalá de Henares (UAH) with over <strong>${expYears} years of continuous professional trajectory</strong> (continuously active since 2011), characterized by solid expertise in enterprise backend architectures, service integration, and fullstack engineering.`,
-      p2: `Specialized in the <strong>Java ecosystem (Java 6, 7, 8, and 11, Lambdas, and Streams)</strong>, <strong>Spring & Spring Boot</strong> frameworks, <strong>REST and SOAP</strong> web services, database persistence and query tuning with <strong>Oracle SQL</strong>, and responsive web frontend development with <strong>Angular</strong>.`,
-      p3: `Extensive hands-on experience in mission-critical environments: <strong>Public Administration</strong> (Government of Cantabria, Social Security), <strong>International Banking</strong> (Deutsche Bank), and <strong>Telecommunications</strong> (Orange), actively participating across the entire software lifecycle, QA, and production deployments.`,
+      p1: `<strong>Computer Systems Engineer</strong> graduated from Universidad de Alcalá de Henares (UAH) with over <strong>${expYears} years of continuous professional trajectory</strong> (continuously active since 2011), specialized as a backend software engineer developing and scaling mission-critical enterprise platforms.`,
+      p2: `Strong specialization in the <strong>Java backend ecosystem (Java 6 to 17, Lambdas, and Streams)</strong>, <strong>Spring & Spring Boot</strong> frameworks, microservices and <strong>REST / SOAP</strong> web services, advanced database tuning and procedures in <strong>Oracle SQL / PL-SQL</strong>, and complementary frontend engineering with <strong>Angular</strong>. Active integration of AI-assisted software engineering workflows utilizing <strong>Claude (Anthropic), Cursor IDE, and Google Antigravity</strong>.`,
+      p3: `Extensive technical experience in mission-critical environments: <strong>Public Administration</strong> (Government of Cantabria, Social Security), <strong>International Banking</strong> (Deutsche Bank), and <strong>Telecommunications</strong> (Orange), actively contributing across the full software lifecycle, technical design, rigorous QA testing, and production deployments.`,
       metricExpVal: `+${expYears}`,
       metricExpLbl: "Years of Experience",
-      metricCoreVal: "Java & Spring",
+      metricCoreVal: "Java & Spring Boot",
       metricCoreLbl: "Core Backend Specialty",
-      metricSqlVal: "Oracle SQL & Angular",
-      metricSqlLbl: "Persistence & Fullstack",
-      metricCritVal: "Banking & Public Sector",
-      metricCritLbl: "High-Availability Systems"
+      metricSqlVal: "Oracle SQL & PL-SQL",
+      metricSqlLbl: "Database Persistence",
+      metricCritVal: "Claude & Cursor AI",
+      metricCritLbl: "AI-Assisted Engineering"
     },
     timeline: {
       tag: "Career Path",
@@ -181,11 +186,11 @@ const translations = {
         telecom: "Orange"
       },
       gobierno: {
-        role: "Senior Fullstack & Backend Developer at Government of Cantabria (Puntal)",
+        role: "Senior Backend Developer at Government of Cantabria (Puntal)",
         company: "Plexus Tech · Full-time · Remote",
         date: "Oct. 2024 — Present",
         b1: "<strong>Functional & Technical Analysis:</strong> Requirements gathering, use case specification, and thorough design and execution of integration test plans for the Puntal public management platform.",
-        b2: "<strong>Full-stack Engineering:</strong> Building, upgrading, and maintaining backend services in <strong>Java and Spring Boot</strong>, along with dynamic frontend components in <strong>Angular</strong>.",
+        b2: "<strong>Backend & Core Engineering:</strong> Developing backend services and microservices in <strong>Java and Spring Boot</strong>, with complementary reactive frontend interfaces in <strong>Angular</strong>.",
         b3: "<strong>SQL Optimization & Persistence:</strong> Relational modeling, query optimization, and complex procedures on high-availability <strong>Oracle SQL</strong> databases."
       },
       seguridadsocial: {
@@ -202,7 +207,7 @@ const translations = {
         date: "Jan. 2018 — Jan. 2020 (2 years)",
         b1: "<strong>End-to-End Banking Applications:</strong> Direct requirement gathering with corporate banking stakeholders, evolutionary development, and rigorous testing.",
         b2: "<strong>Deployments & Maintenance:</strong> CI/CD and deployment management in pre-production and production Unix environments with SVN and ServiceNow ticketing.",
-        b3: "<strong>Technical Coordination:</strong> Resolving mission-critical transactional incidents and cross-team alignment with international engineering groups."
+        b3: "<strong>Technical Collaboration & Integration:</strong> Specialized technical support, resolving incidents in high-concurrency transactional environments, and close alignment with cross-functional teams."
       },
       orange: {
         role: "Software Development & QA Testing Engineer at Orange Telecom",
@@ -217,8 +222,9 @@ const translations = {
       tag: "Specialization",
       title: "Technical Stack & Core Skills",
       backendTitle: "Backend Architecture & Core Java",
+      aiTitle: "AI & Assisted Engineering",
       dataTitle: "Databases & SQL Engineering",
-      frontTitle: "Frontend & Fullstack",
+      frontTitle: "Secondary Frontend & Web",
       devopsTitle: "DevOps, QA & Agile Methodologies"
     },
     education: {
@@ -248,7 +254,7 @@ const translations = {
       githubTitle: "GitHub"
     },
     footer: {
-      copy: `© ${currentYear} Elena García Sánchez · Senior Java & Fullstack Software Engineer · Madrid, Spain.`
+      copy: `© ${currentYear} Elena García Sánchez · Senior Java Backend Engineer · Madrid, Spain.`
     }
   }
 };
@@ -280,8 +286,14 @@ function setLanguage(lang) {
   document.getElementById('hero-status').textContent = t.hero.status;
   document.getElementById('pill-company').textContent = t.hero.pillCompany;
   document.getElementById('pill-core').textContent = t.hero.pillCore;
+  if (document.getElementById('pill-ai')) {
+    document.getElementById('pill-ai').textContent = t.hero.pillAi;
+  }
   document.getElementById('pill-edu').textContent = t.hero.pillEdu;
   document.getElementById('pill-exp').textContent = t.hero.pillExp;
+  if (document.getElementById('pill-angular')) {
+    document.getElementById('pill-angular').textContent = t.hero.pillAngular;
+  }
   document.getElementById('pill-location').textContent = t.hero.pillLocation;
   document.getElementById('pill-lang').textContent = t.hero.pillLang;
   document.getElementById('btn-hero-email').innerHTML = `<span>✉️</span> ${t.hero.btnEmail}`;
@@ -346,6 +358,9 @@ function setLanguage(lang) {
   document.getElementById('skills-tag').textContent = t.skills.tag;
   document.getElementById('skills-title').textContent = t.skills.title;
   document.getElementById('cat-backend-title').textContent = t.skills.backendTitle;
+  if (document.getElementById('cat-ai-title')) {
+    document.getElementById('cat-ai-title').textContent = t.skills.aiTitle;
+  }
   document.getElementById('cat-data-title').textContent = t.skills.dataTitle;
   document.getElementById('cat-front-title').textContent = t.skills.frontTitle;
   document.getElementById('cat-devops-title').textContent = t.skills.devopsTitle;

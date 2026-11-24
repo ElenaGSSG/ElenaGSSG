@@ -1,8 +1,8 @@
 # Elena García Sánchez ⚡
 
-> **Senior Java & Fullstack Software Engineer · Backend & Enterprise Systems**  
+> **Senior Java Backend Engineer · Enterprise Systems & AI Tools (Claude, Cursor, Antigravity)**  
 > **Ingeniera Técnica en Informática de Sistemas (Universidad de Alcalá de Henares · UAH)** · **+15 Años de Experiencia Profesional** (Trayectoria continuada desde 2011).  
-> Especializada en el ecosistema empresarial Java (Java 6, 7, 8 y 11, expresiones Lambda y Streams), frameworks Spring y Spring Boot, diseño e integración de servicios REST y SOAP, optimización avanzada sobre bases de datos relacionales (Oracle SQL, PL/SQL) y desarrollo Fullstack con Angular. Amplia trayectoria en proyectos de máxima criticidad y alta disponibilidad: Administración Pública (Gobierno de Cantabria, Seguridad Social), Banca Internacional (Deutsche Bank) y Telecomunicaciones (Orange).
+> Especializada como ingeniera de software backend en el ecosistema empresarial Java (Java 6 a 17, expresiones Lambda y Streams), frameworks Spring y Spring Boot, diseño e integración de microservicios y APIs REST/SOAP, optimización avanzada sobre bases de datos relacionales (Oracle SQL, PL/SQL) y desarrollo frontend secundario con Angular. Integración de flujos de productividad y desarrollo asistido mediante herramientas de Inteligencia Artificial (Claude, Cursor IDE y Google Antigravity). Amplia trayectoria técnica en proyectos de máxima criticidad y alta disponibilidad: Administración Pública (Gobierno de Cantabria, Seguridad Social), Banca Internacional (Deutsche Bank) y Telecomunicaciones (Orange).
 
 <p align="left">
   <a href="https://elenagssg.github.io/ElenaGSSG/">
@@ -32,7 +32,7 @@
 | Métrica / Indicador | Detalle Profesional |
 | :--- | :--- |
 | **Trayectoria Profesional** | **+15 Años de Experiencia** continuada en ingeniería de software, arquitectura backend y desarrollo de sistemas empresariales (en activo desde **2011**). |
-| **Puesto Actual** | **Desarrolladora Senior Fullstack & Backend** en **Plexus Tech** para la plataforma corporativa de gestión pública **Puntal (Gobierno de Cantabria)**. <br> *Liderando el análisis funcional/técnico, diseño e implementación de servicios Java Spring Boot y componentes reactivos en Angular, con optimización avanzada sobre Oracle SQL.* |
+| **Puesto Actual** | **Desarrolladora Senior Backend** en **Plexus Tech** para la plataforma corporativa de gestión pública **Puntal (Gobierno de Cantabria)**. <br> *Especializada en el análisis funcional y técnico, diseño e implementación de servicios backend en Java Spring Boot, optimización sobre Oracle SQL y vistas complementarias en Angular.* |
 | **Clientes y Sectores Críticos** | **Administración Pública:** Gobierno de Cantabria (con Plexus Tech), Seguridad Social (con Inetum / GrupoSolutia) <br> **Banca Internacional:** Deutsche Bank (con CGI) <br> **Telecomunicaciones:** Orange (con CGI) |
 | **Formación Superior** | **Ingeniería Técnica en Informática de Sistemas** por la **Universidad de Alcalá de Henares (UAH)** [2014]. |
 | **Formación Continua** | **+50 Cursos Técnicos Acreditados** (OpenWebinars, Udemy, Coursera, Tutellus) · Especialización Desarrollo Web HTML5/VS (30 h) · Especialización en Algoritmia 3D y Videojuegos UAH (195 h). |
@@ -44,8 +44,16 @@
 ### 🛠️ Core Technology Matrix
 
 <p align="left">
+  <strong>IA Generativa aplicada al desarrollo & Herramientas:</strong><br>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Claude-AI_Assisted_Engineering-D97706?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Cursor_IDE-AI_Code_Editor-000000?style=flat-square" alt="Cursor IDE" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Google_Antigravity-Agentic_Development-4285F4?style=flat-square" alt="Google Antigravity" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/AI_Pair_Programming-Productivity-8b5cf6?style=flat-square" alt="AI Pair Programming" /></a>
+</p>
+
+<p align="left">
   <strong>Backend, Java & Arquitectura Core:</strong><br>
-  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Java-6_%7C_7_%7C_8_%7C_11-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Java-6_%7C_7_%7C_8_%7C_11_%7C_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" /></a>
   <a href="#tech-matrix"><img src="https://img.shields.io/badge/Spring_Boot-2.x_%7C_3.x-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" /></a>
   <a href="#tech-matrix"><img src="https://img.shields.io/badge/Spring_Framework-MVC_%26_Core-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Framework" /></a>
   <a href="#tech-matrix"><img src="https://img.shields.io/badge/Lambdas_%26_Streams-Functional_Java-8b5cf6?style=flat-square" alt="Lambdas & Streams" /></a>
@@ -66,13 +74,11 @@
 </p>
 
 <p align="left">
-  <strong>Frontend & Fullstack Engineering:</strong><br>
-  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular" /></a>
+  <strong>Frontend Secundario & Complementario:</strong><br>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Angular-Frontend_Secundario-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular" /></a>
   <a href="#tech-matrix"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /></a>
   <a href="#tech-matrix"><img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /></a>
-  <a href="#tech-matrix"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" /></a>
-  <a href="#tech-matrix"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" /></a>
-  <a href="#tech-matrix"><img src="https://img.shields.io/badge/Responsive_Design-Flexbox_%26_Grid-7c3aed?style=flat-square" alt="Responsive Design" /></a>
+  <a href="#tech-matrix"><img src="https://img.shields.io/badge/HTML5_%2F_CSS3-1572B6?style=flat-square&logo=html5&logoColor=white" alt="HTML5 / CSS3" /></a>
 </p>
 
 <p align="left">
@@ -100,12 +106,12 @@
 2024 ──[ Plexus Tech: Gob. de Cantabria ]──── ACTUALIDAD (2026+)
 ```
 
-#### 1. Gobierno de Cantabria (Puntal) — Desarrolladora Senior Fullstack & Backend [Plexus Tech]
+#### 1. Gobierno de Cantabria (Puntal) — Desarrolladora Senior Backend [Plexus Tech]
 *Octubre 2024 — Actualidad · Jornada completa · Remoto*
 - Análisis técnico-funcional y definición de casos de uso para la plataforma de gestión corporativa de la comunidad autónoma (Puntal).
-- Desarrollo integral de servicios backend en Java con Spring Boot y vistas interactivas en Angular.
+- Desarrollo integral de servicios y microservicios backend en Java con Spring Boot, con soporte en vistas interactivas en Angular.
 - Modelado relacional, diseño y optimización de consultas complejas y procedimientos sobre Oracle SQL de alta criticidad.
-- **Stack:** `Java 11 / 17`, `Spring Boot`, `Angular`, `Oracle SQL`, `REST APIs`, `Gitflow`, `Redmine`.
+- **Stack:** `Java 11 / 17`, `Spring Boot`, `Oracle SQL`, `REST APIs`, `Angular`, `Gitflow`, `Redmine`.
 
 #### 2. Seguridad Social — Analista Desarrolladora Java [Inetum / GrupoSolutia]
 *Enero 2020 — Octubre 2024 (4 años 10 meses) · Madrid / Remoto*
@@ -118,7 +124,7 @@
 *Enero 2018 — Enero 2020 (2 años) · Madrid*
 - Ciclo de vida completo de aplicaciones core bancarias: toma de requisitos directamente con el cliente, evolutivos y testing funcional.
 - Gestión de despliegues productivos e integración continua en entornos Unix con control de versiones SVN y gestión de incidencias en ServiceNow.
-- Coordinación técnica inter-equipos y soporte especializado de nivel 2 y 3.
+- Colaboración técnica con otros equipos y soporte especializado de nivel 2 y 3.
 - **Stack:** `Java`, `Spring`, `SQL`, `JavaScript`, `SVN`, `Unix`, `ServiceNow`, `Jira`.
 
 #### 4. Orange Telecom — Ingeniera de Desarrollo & Testing QA [CGI]
