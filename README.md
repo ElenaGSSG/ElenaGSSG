@@ -107,7 +107,7 @@
 2018 ──[ CGI: Deutsche Bank ]──────────────── 2020
 2020 ──[ Inetum / Solutia: Seguridad Social ] 2024
 2024 ──[ Plexus Tech: Gob. de Cantabria ]──── 2026
-2026 ──[ Plexus / NTT Data: Gob. de Galicia + Vibecoding ]── ACTUALIDAD
+2026 ──[ Plexus / NTT Data: Gob. de Galicia]── ACTUALIDAD
 ```
 
 #### 1. Gobierno de Galicia — Desarrolladora Senior Backend & AI Workflows [Plexus Tech / NTT Data]
