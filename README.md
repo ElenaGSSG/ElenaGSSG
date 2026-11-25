@@ -147,48 +147,6 @@
 
 ---
 
-### 📂 Estructura del Repositorio
-
-```text
-d:\GitHub\ElenaGS/
-├── index.html                     # Portal web interactivo y bilingüe (ES / EN)
-├── styles.css                     # Estilos executive luminous con paleta suave lavanda / pizarra
-├── app.js                         # Motor interactivo: i18n, canvas reactivo, filtros timeline
-├── README.md                      # Perfil profesional para GitHub
-├── .nojekyll                      # Despliegue estático sin procesamiento Jekyll
-├── assets/
-│   ├── img/
-│   │   └── avatar.jpg             # Fotografía profesional de perfil
-│   └── docs/
-│       ├── CV_Elena_Garcia_Sanchez.pdf    # CV oficial en PDF (Español, 1 página A4)
-│       └── CV_Elena_Garcia_Sanchez_EN.pdf # CV oficial en PDF (Inglés, 1 página A4)
-└── cv-printable/
-    ├── index.html                 # Plantilla A4 pixel-perfect (Español)
-    ├── index-en.html              # Plantilla A4 pixel-perfect (Inglés)
-    ├── generate-pdf.bat           # Compilador batch Windows vía Chrome headless
-    ├── README.md                  # Documentación del generador de PDF
-    ├── CV_Elena_Garcia_Sanchez.pdf    # PDF generado (Español)
-    ├── CV_Elena_Garcia_Sanchez_EN.pdf # PDF generado (Inglés)
-    └── assets/
-        ├── avatar.jpg             # Fotografía optimizada para impresión
-        └── qr-portfolio.png       # Código QR hacia la web interactiva
-```
-
----
-
-### 🖨️ Compilación del CV Imprimible (1 Página A4)
-
-Para compilar las versiones en PDF vectoriales de 1 página:
-
-```cmd
-cd cv-printable
-generate-pdf.bat
-```
-
-El script invoca Chrome o Edge headless, compila ambas plantillas (`index.html` e `index-en.html`) garantizando 1 página A4 y sincroniza los PDFs en `assets/docs/`.
-
----
-
 ### 📬 Contacto Profesional
 
 - ✉️ **Email:** [elenita1292@gmail.com](mailto:elenita1292@gmail.com)
