@@ -16,6 +16,7 @@
     <div class="glow-orb orb-1"></div>
     <div class="glow-orb orb-2"></div>
     <div class="glow-orb orb-3"></div>
+    <div class="glow-orb orb-4"></div>
   </div>
 
   <!-- Dynamic Constellation Canvas -->
@@ -53,7 +54,7 @@
           <img src="assets/img/avatar.jpg" alt="Elena García Sánchez" class="hero-avatar">
           <div class="status-indicator">
             <span class="status-dot"></span>
-            <span id="hero-status">En activo · Gob. de Cantabria</span>
+            <span id="hero-status">En activo · Gob. de Galicia (Plexus Tech)</span>
           </div>
         </div>
 
@@ -62,14 +63,14 @@
           <div class="hero-subtitle" id="hero-role">Senior Java Backend Engineer · Ecosistema Java, Spring Boot & Herramientas de IA</div>
           
           <div class="hero-pills">
-            <span class="hero-pill" id="pill-company">🏢 Plexus Tech · Gob. de Cantabria (Actualidad)</span>
-            <span class="hero-pill hero-pill-highlight" id="pill-core">☕ Especialista Backend Java · Spring Boot & APIs REST</span>
-            <span class="hero-pill hero-pill-ai" id="pill-ai">🤖 Desarrollo Asistido con IA (Claude & Cursor)</span>
-            <span class="hero-pill" id="pill-edu">🎓 Ing. Técnica en Informática de Sistemas (UAH)</span>
-            <span class="hero-pill" id="pill-exp">⚡ +<span class="dyn-exp">15</span> años de experiencia</span>
-            <span class="hero-pill" id="pill-angular">💻 Angular (Frontend Complementario)</span>
-            <span class="hero-pill" id="pill-location">📍 Madrid / Remoto (España)</span>
-            <span class="hero-pill" id="pill-lang">🌐 Inglés B2 · Español Nativo</span>
+            <span class="hero-pill hero-pill-company" id="pill-company">🏢 Plexus Tech · Gob. de Galicia (Actualidad)</span>
+            <span class="hero-pill hero-pill-core" id="pill-core">☕ Especialista Backend Java 21 · Spring Boot & APIs REST</span>
+            <span class="hero-pill hero-pill-ai" id="pill-ai">🚀 Vibecoding & IA: Claude (Skills/Workflows) + Rovo</span>
+            <span class="hero-pill hero-pill-edu" id="pill-edu">🎓 Ing. Técnica en Informática de Sistemas (UAH)</span>
+            <span class="hero-pill hero-pill-exp" id="pill-exp">⚡ +<span class="dyn-exp">15</span> años de experiencia</span>
+            <span class="hero-pill hero-pill-angular" id="pill-angular">💻 Angular (Frontend Complementario)</span>
+            <span class="hero-pill hero-pill-location" id="pill-location">📍 Madrid / Remoto (España)</span>
+            <span class="hero-pill hero-pill-lang" id="pill-lang">🌐 Inglés B2 · Español Nativo</span>
           </div>
 
           <div class="hero-actions">
@@ -105,10 +106,10 @@
             <strong>Ingeniera Técnica en Informática de Sistemas</strong> por la Universidad de Alcalá de Henares (UAH), con más de <strong>15 años de experiencia profesional</strong> en ingeniería de software y desarrollo backend (en activo desde 2011).
           </p>
           <p id="summary-p2">
-            Especializada en el <strong>ecosistema Java (desde Java 6 hasta Java 17, Lambdas y Streams)</strong>, arquitectura de microservicios con <strong>Spring y Spring Boot</strong>, diseño e integración de servicios <strong>REST y SOAP</strong>, y optimización sobre bases de datos relacionales en <strong>Oracle SQL y PL/SQL</strong>. Cuento además con experiencia en desarrollo frontend complementario con <strong>Angular</strong> para aplicaciones corporativas, e integro herramientas modernas de Inteligencia Artificial (<strong>Claude, Cursor y Google Antigravity</strong>) para acelerar refactorizaciones, generación de pruebas unitarias y calidad del código.
+            Especializada en el <strong>ecosistema Java (desde Java 6 hasta Java 21, Lambdas y Streams)</strong>, arquitectura de microservicios con <strong>Spring y Spring Boot</strong>, diseño e integración de servicios <strong>REST y SOAP</strong>, y optimización sobre bases de datos relacionales en <strong>Oracle SQL y PL/SQL</strong>. En mi trayectoria reciente aplico metodologías de <strong>vibecoding</strong> y desarrollo aumentado mediante <strong>Claude</strong> (con <em>skills</em> y <em>workflows</em> estructurados) y <strong>Atlassian Rovo</strong> para acelerar drásticamente el análisis de código, la calidad de refactorización y la cobertura de pruebas, con soporte complementario en <strong>Angular</strong>.
           </p>
           <p id="summary-p3">
-            A lo largo de mi trayectoria he trabajado en entornos de gran envergadura y alta exigencia técnica en el <strong>sector público</strong> (Gobierno de Cantabria y Seguridad Social), <strong>banca internacional</strong> (Deutsche Bank) y <strong>telecomunicaciones</strong> (Orange), participando activamente en el análisis técnico, desarrollo, pruebas de integración y despliegues en producción.
+            A lo largo de mi trayectoria he trabajado en entornos de gran envergadura y alta exigencia técnica en el <strong>sector público</strong> (Gobierno de Galicia en colaboración con NTT Data, Gobierno de Cantabria y Seguridad Social), <strong>banca internacional</strong> (Deutsche Bank) y <strong>telecomunicaciones</strong> (Orange), participando activamente en el análisis técnico, desarrollo, pruebas de integración y despliegues en producción.
           </p>
 
           <div class="metrics-grid">
@@ -143,6 +144,7 @@
 
         <div class="timeline-filters">
           <button class="filter-btn active" onclick="filterTimeline('all', this)" id="filter-all">Todas</button>
+          <button class="filter-btn" onclick="filterTimeline('galicia', this)" id="filter-galicia">Gob. Galicia</button>
           <button class="filter-btn" onclick="filterTimeline('gobierno', this)" id="filter-gobierno">Gob. Cantabria</button>
           <button class="filter-btn" onclick="filterTimeline('seguridadsocial', this)" id="filter-seguridadsocial">Seguridad Social</button>
           <button class="filter-btn" onclick="filterTimeline('banca', this)" id="filter-banca">Deutsche Bank</button>
@@ -150,17 +152,49 @@
         </div>
 
         <div class="timeline">
-          <!-- 1. Gobierno de Cantabria (Plexus Tech) -->
+          <!-- 1. Gobierno de Galicia (Plexus Tech / NTT Data) -->
+          <div class="timeline-item" data-category="galicia">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge badge-galicia">Sector Público · Innovación & IA</span>
+                  <h3 class="role-title" id="galicia-role">Desarrolladora Senior Backend & AI Workflows en Gobierno de Galicia</h3>
+                  <div class="company-name" id="galicia-company">Plexus Tech (en colaboración con NTT Data) · Jornada completa · Remoto</div>
+                </div>
+                <div class="timeline-date" id="galicia-date">Jun. 2026 — Actualidad</div>
+              </div>
+              <ul class="role-bullets">
+                <li id="galicia-b1"><strong>Ingeniería Backend con Java 21 & Spring Boot:</strong> Diseño, implementación y evolución de microservicios y APIs REST de alto rendimiento en equipo de gran escala técnica en colaboración con <strong>NTT Data</strong>, garantizando escalabilidad y robustez.</li>
+                <li id="galicia-b2"><strong>Vibecoding & Flujos Asistidos con IA:</strong> Adopción de desarrollo asistido de vanguardia mediante <strong>Claude</strong> (aplicando flujos con <em>skills</em> y <em>workflows</em> estructurados) y <strong>Atlassian Rovo</strong>, logrando un salto drástico en productividad, análisis exploratorio de código, generación de baterías de tests y refactorizaciones.</li>
+                <li id="galicia-b3"><strong>Persistencia Relacional & Frontend:</strong> Modelado y optimización sobre <strong>Oracle SQL</strong>, soporte complementario a vistas en <strong>Angular</strong> y ciclo de integración continua bajo metodología <strong>Gitflow</strong>.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag tech-tag-java">Java 21</span>
+                <span class="tech-tag tech-tag-accent">Spring Boot</span>
+                <span class="tech-tag tech-tag-ai">Claude Workflows & Skills</span>
+                <span class="tech-tag tech-tag-ai">Atlassian Rovo</span>
+                <span class="tech-tag tech-tag-ai">Vibecoding</span>
+                <span class="tech-tag">REST APIs</span>
+                <span class="tech-tag">Oracle SQL</span>
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">Gitflow</span>
+                <span class="tech-tag">NTT Data</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Gobierno de Cantabria (Plexus Tech) -->
           <div class="timeline-item" data-category="gobierno">
             <div class="timeline-marker"></div>
             <div class="timeline-card">
               <div class="timeline-header">
                 <div>
-                  <span class="timeline-badge badge-public">Sector Público · Gestión Corporativa</span>
+                  <span class="timeline-badge badge-cantabria">Sector Público · Gestión Corporativa</span>
                   <h3 class="role-title" id="gob-role">Desarrolladora Senior Backend en Gobierno de Cantabria (Puntal)</h3>
                   <div class="company-name" id="gob-company">Plexus Tech · Jornada completa · Remoto</div>
                 </div>
-                <div class="timeline-date" id="gob-date">Oct. 2024 — Actualidad</div>
+                <div class="timeline-date" id="gob-date">Oct. 2024 — Jun. 2026 (1 año 9 meses)</div>
               </div>
               <ul class="role-bullets">
                 <li id="gob-b1"><strong>Análisis funcional y técnico:</strong> Toma de requisitos, definición de especificaciones y casos de uso, y diseño y ejecución de planes de pruebas de integración para la plataforma de gestión corporativa Puntal.</li>
@@ -180,13 +214,13 @@
             </div>
           </div>
 
-          <!-- 2. Seguridad Social (Inetum / GrupoSolutia) -->
+          <!-- 3. Seguridad Social (Inetum / GrupoSolutia) -->
           <div class="timeline-item" data-category="seguridadsocial">
             <div class="timeline-marker"></div>
             <div class="timeline-card">
               <div class="timeline-header">
                 <div>
-                  <span class="timeline-badge badge-public">Sector Público · Alta Disponibilidad</span>
+                  <span class="timeline-badge badge-ss">Sector Público · Alta Disponibilidad</span>
                   <h3 class="role-title" id="ss-role">Analista Desarrolladora Java en Seguridad Social</h3>
                   <div class="company-name" id="ss-company">Inetum / GrupoSolutia · Jornada completa · Madrid / Remoto</div>
                 </div>
@@ -292,9 +326,9 @@
               <h3 class="category-title" id="cat-backend-title">Arquitectura Backend & Core Java</h3>
             </div>
             <div class="skills-list">
-              <span class="skill-pill">Java 6 / 7 / 8 / 11 / 17</span>
+              <span class="skill-pill">Java 6 a 21</span>
+              <span class="skill-pill">Spring Boot 2 / 3</span>
               <span class="skill-pill">Spring Framework</span>
-              <span class="skill-pill">Spring Boot</span>
               <span class="skill-pill">Microservicios</span>
               <span class="skill-pill">Expresiones Lambda & Streams</span>
               <span class="skill-pill">APIs RESTful</span>
@@ -308,16 +342,17 @@
           <div class="skills-category-card">
             <div class="skills-category-header">
               <span class="category-icon">🤖</span>
-              <h3 class="category-title" id="cat-ai-title">IA & Desarrollo Asistido</h3>
+              <h3 class="category-title" id="cat-ai-title">IA, Vibecoding & Flujos Asistidos</h3>
             </div>
             <div class="skills-list">
-              <span class="skill-pill">Claude (Anthropic)</span>
+              <span class="skill-pill">Claude (Skills & Workflows)</span>
+              <span class="skill-pill">Atlassian Rovo</span>
+              <span class="skill-pill">Vibecoding</span>
               <span class="skill-pill">Cursor IDE</span>
               <span class="skill-pill">Google Antigravity</span>
               <span class="skill-pill">AI Pair Programming</span>
               <span class="skill-pill">Refactorización Asistida por IA</span>
               <span class="skill-pill">Generación de Tests Unitarios</span>
-              <span class="skill-pill">Optimización Asistida</span>
             </div>
           </div>
 

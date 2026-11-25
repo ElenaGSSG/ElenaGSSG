@@ -25,10 +25,10 @@ const translations = {
     },
     hero: {
       role: "Senior Java Backend Engineer · Ecosistema Java, Spring Boot & Herramientas de IA",
-      status: "En activo · Gob. de Cantabria",
-      pillCompany: "🏢 Plexus Tech · Gob. de Cantabria (Actualidad)",
-      pillCore: "☕ Especialista Backend Java · Spring Boot & APIs REST",
-      pillAi: "🤖 Desarrollo Asistido con IA (Claude & Cursor)",
+      status: "En activo · Gob. de Galicia (Plexus Tech)",
+      pillCompany: "🏢 Plexus Tech · Gob. de Galicia (Actualidad)",
+      pillCore: "☕ Especialista Backend Java 21 · Spring Boot & APIs REST",
+      pillAi: "🚀 Vibecoding & IA: Claude (Skills/Workflows) + Rovo",
       pillEdu: "🎓 Ing. Técnica en Informática de Sistemas (UAH)",
       pillExp: `⚡ +${expYears} años de experiencia`,
       pillAngular: "💻 Angular (Frontend Complementario)",
@@ -45,31 +45,40 @@ const translations = {
       tag: "Perfil Profesional",
       title: "Resumen Ejecutivo",
       p1: `<strong>Ingeniera Técnica en Informática de Sistemas</strong> por la Universidad de Alcalá de Henares (UAH), con más de <strong>${expYears} años de experiencia profesional</strong> en ingeniería de software y desarrollo backend (en activo desde 2011).`,
-      p2: `Especializada en el <strong>ecosistema Java (desde Java 6 hasta Java 17, Lambdas y Streams)</strong>, arquitectura de microservicios con <strong>Spring y Spring Boot</strong>, diseño e integración de servicios <strong>REST y SOAP</strong>, y optimización sobre bases de datos relacionales en <strong>Oracle SQL y PL/SQL</strong>. Cuento además con experiencia en desarrollo frontend complementario con <strong>Angular</strong> para aplicaciones corporativas, e integro herramientas modernas de Inteligencia Artificial (<strong>Claude, Cursor y Google Antigravity</strong>) para acelerar refactorizaciones, generación de pruebas unitarias y calidad del código.`,
-      p3: `A lo largo de mi trayectoria he trabajado en entornos de gran envergadura y alta exigencia técnica en el <strong>sector público</strong> (Gobierno de Cantabria y Seguridad Social), <strong>banca internacional</strong> (Deutsche Bank) y <strong>telecomunicaciones</strong> (Orange), participando activamente en el análisis técnico, desarrollo, pruebas de integración y despliegues en producción.`,
+      p2: `Especializada en el <strong>ecosistema Java (desde Java 6 hasta Java 21, Lambdas y Streams)</strong>, arquitectura de microservicios con <strong>Spring y Spring Boot</strong>, diseño e integración de servicios <strong>REST y SOAP</strong>, y optimización sobre bases de datos relacionales en <strong>Oracle SQL y PL/SQL</strong>. En mi trayectoria reciente aplico metodologías de <strong>vibecoding</strong> y desarrollo aumentado mediante <strong>Claude</strong> (con <em>skills</em> y <em>workflows</em> estructurados) y <strong>Atlassian Rovo</strong> para acelerar drásticamente el análisis de código, la calidad de refactorización y la cobertura de pruebas, con soporte complementario en <strong>Angular</strong>.`,
+      p3: `A lo largo de mi trayectoria he trabajado en entornos de gran envergadura y alta exigencia técnica en el <strong>sector público</strong> (Gobierno de Galicia en colaboración con NTT Data, Gobierno de Cantabria y Seguridad Social), <strong>banca internacional</strong> (Deutsche Bank) y <strong>telecomunicaciones</strong> (Orange), participando activamente en el análisis técnico, desarrollo, pruebas de integración y despliegues en producción.`,
       metricExpVal: `+${expYears}`,
       metricExpLbl: "Años de Experiencia",
       metricCoreVal: "Java & Spring Boot",
       metricCoreLbl: "Especialidad Core Backend",
       metricSqlVal: "Oracle SQL & PL-SQL",
       metricSqlLbl: "Bases de Datos & Persistencia",
-      metricCritVal: "Claude & Cursor AI",
-      metricCritLbl: "Desarrollo Asistido con IA"
+      metricCritVal: "Claude, Rovo & Vibecoding",
+      metricCritLbl: "Desarrollo Aumentado con IA"
     },
     timeline: {
       tag: "Carrera Profesional",
       title: "Experiencia Laboral",
       filters: {
         all: "Todas",
+        galicia: "Gob. Galicia",
         gobierno: "Gob. Cantabria",
         seguridadsocial: "Seguridad Social",
         banca: "Deutsche Bank",
         telecom: "Orange"
       },
+      galicia: {
+        role: "Desarrolladora Senior Backend & AI Workflows en Gobierno de Galicia",
+        company: "Plexus Tech (en colaboración con NTT Data) · Jornada completa · Remoto",
+        date: "Jun. 2026 — Actualidad",
+        b1: "<strong>Ingeniería Backend con Java 21 & Spring Boot:</strong> Diseño, implementación y evolución de microservicios y APIs REST de alto rendimiento en equipo de gran escala técnica en colaboración con <strong>NTT Data</strong>, garantizando escalabilidad y robustez.",
+        b2: "<strong>Vibecoding & Flujos Asistidos con IA:</strong> Adopción de desarrollo asistido de vanguardia mediante <strong>Claude</strong> (aplicando flujos con <em>skills</em> y <em>workflows</em> estructurados) y <strong>Atlassian Rovo</strong>, logrando un salto drástico en productividad, análisis exploratorio de código, generación de baterías de tests y refactorizaciones.",
+        b3: "<strong>Persistencia Relacional & Frontend:</strong> Modelado y optimización sobre <strong>Oracle SQL</strong>, soporte complementario a vistas en <strong>Angular</strong> y ciclo de integración continua bajo metodología <strong>Gitflow</strong>."
+      },
       gobierno: {
         role: "Desarrolladora Senior Backend en Gobierno de Cantabria (Puntal)",
         company: "Plexus Tech · Jornada completa · Remoto",
-        date: "Oct. 2024 — Actualidad",
+        date: "Oct. 2024 — Jun. 2026 (1 año 9 meses)",
         b1: "<strong>Análisis funcional y técnico:</strong> Toma de requisitos, definición de especificaciones y casos de uso, y diseño y ejecución de planes de pruebas de integración para la plataforma de gestión corporativa Puntal.",
         b2: "<strong>Desarrollo Backend:</strong> Implementación de servicios y microservicios en <strong>Java con Spring Boot</strong>, junto con el soporte y evolución de vistas complementarias en <strong>Angular</strong>.",
         b3: "<strong>Bases de Datos & Persistencia:</strong> Modelado relacional, diseño y optimización de consultas complejas y procedimientos sobre bases de datos <strong>Oracle SQL</strong>."
@@ -103,7 +112,7 @@ const translations = {
       tag: "Especialización",
       title: "Habilidades & Stack Tecnológico",
       backendTitle: "Arquitectura Backend & Core Java",
-      aiTitle: "IA & Desarrollo Asistido",
+      aiTitle: "IA, Vibecoding & Flujos Asistidos",
       dataTitle: "Bases de Datos & SQL",
       frontTitle: "Frontend Complementario & Web",
       devopsTitle: "DevOps, QA & Metodologías"
@@ -148,10 +157,10 @@ const translations = {
     },
     hero: {
       role: "Senior Java Backend Engineer · Java Ecosystem, Spring Boot & AI Tools",
-      status: "Active · Gov. of Cantabria",
-      pillCompany: "🏢 Plexus Tech · Gov. of Cantabria (Present)",
-      pillCore: "☕ Java Backend Specialist · Spring Boot & REST APIs",
-      pillAi: "🤖 AI-Assisted Development (Claude & Cursor)",
+      status: "Active · Gov. of Galicia (Plexus Tech)",
+      pillCompany: "🏢 Plexus Tech · Gov. of Galicia (Present)",
+      pillCore: "☕ Java 21 Backend Specialist · Spring Boot & REST APIs",
+      pillAi: "🚀 Vibecoding & AI: Claude (Skills/Workflows) + Rovo",
       pillEdu: "🎓 B.S. in Computer Systems Engineering (UAH)",
       pillExp: `⚡ +${expYears} years of experience`,
       pillAngular: "💻 Angular (Complementary Frontend)",
@@ -168,31 +177,40 @@ const translations = {
       tag: "Professional Profile",
       title: "Executive Summary",
       p1: `<strong>Computer Systems Engineer</strong> graduated from Universidad de Alcalá de Henares (UAH) with over <strong>${expYears} years of professional experience</strong> in software engineering and backend development (active since 2011).`,
-      p2: `Specialized in the <strong>Java ecosystem (Java 6 through 17, Lambdas, and Streams)</strong>, microservices architecture with <strong>Spring and Spring Boot</strong>, <strong>REST APIs and SOAP web services</strong>, and relational database optimization with <strong>Oracle SQL and PL/SQL</strong>. Experienced in building complementary frontend interfaces with <strong>Angular</strong> and actively leveraging AI-assisted development workflows (<strong>Claude, Cursor, and Google Antigravity</strong>) to accelerate refactoring, unit test creation, and code quality.`,
-      p3: `Proven track record in high-impact enterprise environments across <strong>public administration</strong> (Government of Cantabria, Social Security), <strong>international banking</strong> (Deutsche Bank), and <strong>telecommunications</strong> (Orange), contributing across technical analysis, core backend development, integration testing, and production releases.`,
+      p2: `Specialized in the <strong>Java ecosystem (Java 6 through 21, Lambdas, and Streams)</strong>, microservices architecture with <strong>Spring and Spring Boot</strong>, <strong>REST APIs and SOAP web services</strong>, and relational database optimization with <strong>Oracle SQL and PL/SQL</strong>. In my recent roles I actively practice <strong>vibecoding</strong> and AI-augmented software engineering using <strong>Claude</strong> (leveraging structured <em>skills</em> and <em>workflows</em>) and <strong>Atlassian Rovo</strong> to dramatically accelerate code exploration, refactoring velocity, and unit test suites, alongside complementary frontend support in <strong>Angular</strong>.`,
+      p3: `Proven track record in high-impact enterprise environments across <strong>public administration</strong> (Government of Galicia in collaboration with NTT Data, Government of Cantabria, and Social Security), <strong>international banking</strong> (Deutsche Bank), and <strong>telecommunications</strong> (Orange), contributing across technical analysis, core backend development, integration testing, and production releases.`,
       metricExpVal: `+${expYears}`,
       metricExpLbl: "Years of Experience",
       metricCoreVal: "Java & Spring Boot",
       metricCoreLbl: "Core Backend Specialty",
       metricSqlVal: "Oracle SQL & PL-SQL",
       metricSqlLbl: "Databases & Persistence",
-      metricCritVal: "Claude & Cursor AI",
-      metricCritLbl: "AI-Assisted Engineering"
+      metricCritVal: "Claude, Rovo & Vibecoding",
+      metricCritLbl: "AI-Augmented Engineering"
     },
     timeline: {
       tag: "Career Path",
       title: "Work Experience",
       filters: {
         all: "All",
+        galicia: "Gov. Galicia",
         gobierno: "Gov. Cantabria",
         seguridadsocial: "Social Security",
         banca: "Deutsche Bank",
         telecom: "Orange"
       },
+      galicia: {
+        role: "Senior Backend Developer & AI Workflows at Government of Galicia",
+        company: "Plexus Tech (in collaboration with NTT Data) · Full-time · Remote",
+        date: "Jun. 2026 — Present",
+        b1: "<strong>Backend Engineering with Java 21 & Spring Boot:</strong> Designing, building, and optimizing high-performance microservices and REST APIs within a large-scale engineering team in partnership with <strong>NTT Data</strong>.",
+        b2: "<strong>Vibecoding & AI-Assisted Workflows:</strong> Pioneering AI-augmented workflows using <strong>Claude</strong> (structured <em>skills</em> and <em>workflows</em>) and <strong>Atlassian Rovo</strong>, drastically boosting development velocity, architectural analysis, unit test generation, and continuous refactoring.",
+        b3: "<strong>Relational Persistence & Frontend:</strong> Advanced modeling and query tuning on <strong>Oracle SQL</strong>, UI support in <strong>Angular</strong>, and collaborative CI/CD under <strong>Gitflow</strong>."
+      },
       gobierno: {
         role: "Senior Backend Developer at Government of Cantabria (Puntal)",
         company: "Plexus Tech · Full-time · Remote",
-        date: "Oct. 2024 — Present",
+        date: "Oct. 2024 — Jun. 2026 (1 yr 9 mos)",
         b1: "<strong>Functional & Technical Analysis:</strong> Requirements gathering, use case specification, and integration test planning for the Puntal public management platform.",
         b2: "<strong>Backend Development:</strong> Implementing core services and microservices in <strong>Java with Spring Boot</strong>, alongside complementary frontend views in <strong>Angular</strong>.",
         b3: "<strong>Databases & Persistence:</strong> Relational modeling, query optimization, and complex procedures on <strong>Oracle SQL</strong> databases."
@@ -226,7 +244,7 @@ const translations = {
       tag: "Specialization",
       title: "Technical Stack & Core Skills",
       backendTitle: "Backend Architecture & Core Java",
-      aiTitle: "AI & Assisted Engineering",
+      aiTitle: "AI, Vibecoding & Assisted Workflows",
       dataTitle: "Databases & SQL Engineering",
       frontTitle: "Complementary Frontend & Web",
       devopsTitle: "DevOps, QA & Agile Methodologies"
@@ -331,12 +349,24 @@ function setLanguage(lang) {
   document.getElementById('timeline-tag').textContent = t.timeline.tag;
   document.getElementById('timeline-title').textContent = t.timeline.title;
   document.getElementById('filter-all').textContent = t.timeline.filters.all;
+  if (document.getElementById('filter-galicia')) {
+    document.getElementById('filter-galicia').textContent = t.timeline.filters.galicia;
+  }
   document.getElementById('filter-gobierno').textContent = t.timeline.filters.gobierno;
   document.getElementById('filter-seguridadsocial').textContent = t.timeline.filters.seguridadsocial;
   document.getElementById('filter-banca').textContent = t.timeline.filters.banca;
   document.getElementById('filter-telecom').textContent = t.timeline.filters.telecom;
 
   // Timeline Jobs
+  if (document.getElementById('galicia-role')) {
+    document.getElementById('galicia-role').textContent = t.timeline.galicia.role;
+    document.getElementById('galicia-company').textContent = t.timeline.galicia.company;
+    document.getElementById('galicia-date').textContent = t.timeline.galicia.date;
+    document.getElementById('galicia-b1').innerHTML = t.timeline.galicia.b1;
+    document.getElementById('galicia-b2').innerHTML = t.timeline.galicia.b2;
+    document.getElementById('galicia-b3').innerHTML = t.timeline.galicia.b3;
+  }
+
   document.getElementById('gob-role').textContent = t.timeline.gobierno.role;
   document.getElementById('gob-company').textContent = t.timeline.gobierno.company;
   document.getElementById('gob-date').textContent = t.timeline.gobierno.date;
