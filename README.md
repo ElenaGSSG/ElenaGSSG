@@ -1,8 +1,8 @@
 # Elena García Sánchez ⚡
 
-> **Senior Java Backend Engineer · Enterprise Systems & AI Tools (Claude, Cursor, Antigravity)**  
-> **Ingeniera Técnica en Informática de Sistemas (Universidad de Alcalá de Henares · UAH)** · **+15 Años de Experiencia Profesional** (Trayectoria continuada desde 2011).  
-> Especializada como ingeniera de software backend en el ecosistema empresarial Java (Java 6 a 17, expresiones Lambda y Streams), frameworks Spring y Spring Boot, diseño e integración de microservicios y APIs REST/SOAP, optimización avanzada sobre bases de datos relacionales (Oracle SQL, PL/SQL) y desarrollo frontend secundario con Angular. Integración de flujos de productividad y desarrollo asistido mediante herramientas de Inteligencia Artificial (Claude, Cursor IDE y Google Antigravity). Amplia trayectoria técnica en proyectos de máxima criticidad y alta disponibilidad: Administración Pública (Gobierno de Cantabria, Seguridad Social), Banca Internacional (Deutsche Bank) y Telecomunicaciones (Orange).
+> **Senior Java Backend Engineer · Ecosistema Java, Spring Boot & Herramientas de IA**  
+> **Ingeniera Técnica en Informática de Sistemas (Universidad de Alcalá de Henares · UAH)** · **+15 Años de Experiencia Profesional** (en activo desde 2011).  
+> Especializada en arquitectura y desarrollo backend dentro del ecosistema empresarial Java (Java 6 a 17, expresiones Lambda y Streams), frameworks Spring y Spring Boot, diseño e integración de microservicios y APIs REST / SOAP, y optimización sobre bases de datos relacionales con Oracle SQL y PL/SQL. Cuento además con experiencia en desarrollo frontend complementario con Angular para aplicaciones corporativas, e integro herramientas modernas de Inteligencia Artificial (Claude, Cursor IDE y Google Antigravity) para acelerar refactorizaciones, creación de pruebas unitarias y calidad del software. Amplia experiencia en entornos de gran envergadura técnica: Administración Pública (Gobierno de Cantabria, Seguridad Social), Banca Internacional (Deutsche Bank) y Telecomunicaciones (Orange).
 
 <p align="left">
   <a href="https://elenagssg.github.io/ElenaGSSG/">
@@ -23,16 +23,17 @@
 
 ### 🌐 Online Interactive CV & Career Profile
 👉 **Explora la versión web interactiva completa:** [**https://elenagssg.github.io/ElenaGSSG/**](https://elenagssg.github.io/ElenaGSSG/)  
-📥 **Descarga directa de CV oficial en PDF (1 Página A4):** [**Descargar CV_Elena_Garcia_Sanchez.pdf**](assets/docs/CV_Elena_Garcia_Sanchez.pdf)
+📥 **Descarga de CV oficial en PDF (Español, 1 Página A4):** [**CV_Elena_Garcia_Sanchez.pdf**](assets/docs/CV_Elena_Garcia_Sanchez.pdf)  
+📥 **Download Official Resume in PDF (English, 1 Page A4):** [**CV_Elena_Garcia_Sanchez_EN.pdf**](assets/docs/CV_Elena_Garcia_Sanchez_EN.pdf)
 
 ---
 
-### 💼 Executive Profile & Key Metrics
+### 💼 Perfil Profesional & Métricas Clave
 
 | Métrica / Indicador | Detalle Profesional |
 | :--- | :--- |
-| **Trayectoria Profesional** | **+15 Años de Experiencia** continuada en ingeniería de software, arquitectura backend y desarrollo de sistemas empresariales (en activo desde **2011**). |
-| **Puesto Actual** | **Desarrolladora Senior Backend** en **Plexus Tech** para la plataforma corporativa de gestión pública **Puntal (Gobierno de Cantabria)**. <br> *Especializada en el análisis funcional y técnico, diseño e implementación de servicios backend en Java Spring Boot, optimización sobre Oracle SQL y vistas complementarias en Angular.* |
+| **Trayectoria Profesional** | **+15 Años de Experiencia** en ingeniería de software, arquitectura backend y desarrollo de sistemas empresariales (en activo desde **2011**). |
+| **Puesto Actual** | **Desarrolladora Senior Backend** en **Plexus Tech** para la plataforma corporativa de gestión pública **Puntal (Gobierno de Cantabria)**. <br> *Análisis funcional y técnico, diseño e implementación de servicios backend en Java Spring Boot, optimización sobre Oracle SQL y vistas complementarias en Angular.* |
 | **Clientes y Sectores Críticos** | **Administración Pública:** Gobierno de Cantabria (con Plexus Tech), Seguridad Social (con Inetum / GrupoSolutia) <br> **Banca Internacional:** Deutsche Bank (con CGI) <br> **Telecomunicaciones:** Orange (con CGI) |
 | **Formación Superior** | **Ingeniería Técnica en Informática de Sistemas** por la **Universidad de Alcalá de Henares (UAH)** [2014]. |
 | **Formación Continua** | **+50 Cursos Técnicos Acreditados** (OpenWebinars, Udemy, Coursera, Tutellus) · Especialización Desarrollo Web HTML5/VS (30 h) · Especialización en Algoritmia 3D y Videojuegos UAH (195 h). |
@@ -108,30 +109,30 @@
 
 #### 1. Gobierno de Cantabria (Puntal) — Desarrolladora Senior Backend [Plexus Tech]
 *Octubre 2024 — Actualidad · Jornada completa · Remoto*
-- Análisis técnico-funcional y definición de casos de uso para la plataforma de gestión corporativa de la comunidad autónoma (Puntal).
-- Desarrollo integral de servicios y microservicios backend en Java con Spring Boot, con soporte en vistas interactivas en Angular.
-- Modelado relacional, diseño y optimización de consultas complejas y procedimientos sobre Oracle SQL de alta criticidad.
+- Toma de requisitos, definición de especificaciones y casos de uso, y diseño de planes de pruebas de integración para la plataforma de gestión corporativa Puntal.
+- Desarrollo backend en Java con Spring Boot, diseño de microservicios y APIs REST, con soporte y vistas complementarias en Angular.
+- Modelado relacional, diseño y optimización de consultas complejas y procedimientos sobre bases de datos Oracle SQL.
 - **Stack:** `Java 11 / 17`, `Spring Boot`, `Oracle SQL`, `REST APIs`, `Angular`, `Gitflow`, `Redmine`.
 
 #### 2. Seguridad Social — Analista Desarrolladora Java [Inetum / GrupoSolutia]
 *Enero 2020 — Octubre 2024 (4 años 10 meses) · Madrid / Remoto*
-- Análisis y desarrollo integral de aplicativos Java de alta criticidad ciudadana bajo marco metodológico AGILE (Scrum).
-- Refactorización y modernización de código legado implementando expresiones Lambda, streams y concurrencia eficiente.
-- Ejecución y mantenimiento de suites de pruebas con HP ALM y auditoría estática de vulnerabilidades con Kiuwan.
+- Análisis y desarrollo de aplicativos corporativos Java para la Seguridad Social en marco ágil Scrum, con entregas periódicas.
+- Refactorización y modernización de módulos legados incorporando expresiones Lambda, streams y concurrencia eficiente.
+- Mantenimiento y ejecución de suites de pruebas con HP ALM y auditoría estática de vulnerabilidades con Kiuwan.
 - **Stack:** `Java 8 / 11`, `Spring Framework`, `Lambdas & Streams`, `ALM Testing`, `Kiuwan`, `Gitflow`, `Jira`, `Confluence`.
 
 #### 3. Deutsche Bank — Analista Desarrolladora de Aplicaciones Bancarias [CGI]
 *Enero 2018 — Enero 2020 (2 años) · Madrid*
-- Ciclo de vida completo de aplicaciones core bancarias: toma de requisitos directamente con el cliente, evolutivos y testing funcional.
-- Gestión de despliegues productivos e integración continua en entornos Unix con control de versiones SVN y gestión de incidencias en ServiceNow.
-- Colaboración técnica con otros equipos y soporte especializado de nivel 2 y 3.
+- Toma de requisitos directamente con usuarios de negocio, desarrollo evolutivo y pruebas funcionales en sistemas transaccionales core bancarios.
+- Gestión de despliegues en entornos Unix, control de versiones con SVN y gestión de incidencias a través de ServiceNow.
+- Resolución de incidencias en producción y coordinación técnica con equipos de infraestructura y arquitectura.
 - **Stack:** `Java`, `Spring`, `SQL`, `JavaScript`, `SVN`, `Unix`, `ServiceNow`, `Jira`.
 
 #### 4. Orange Telecom — Ingeniera de Desarrollo & Testing QA [CGI]
 *Junio 2011 — Enero 2018 (6 años 7 meses) · Madrid*
-- Análisis técnico, desarrollo de evolutivos y mantenimiento preventivo/correctivo para plataformas críticas de telecomunicaciones.
-- Creación, diseño y ejecución exhaustiva de baterías de pruebas (QA Tester) para certificar entregables de software.
-- Mantenimiento sobre arquitecturas mixtas: Java, Spring, PL/SQL, Powerbuilder, C++ y entornos Unix.
+- Análisis técnico, corrección de incidencias y evolución de sistemas para plataformas operativas y de facturación.
+- Diseño, preparación de datos de prueba y ejecución sistemática de planes de test funcionales antes de despliegues productivos (QA Tester).
+- Mantenimiento y evolución sobre entornos heterogéneos: Java, Spring, PL/SQL, Powerbuilder, C++ y entornos Unix.
 - **Stack:** `Java`, `Spring`, `SQL / PL-SQL`, `Telecom`, `QA Tester`, `Powerbuilder`, `C++`, `Unix`, `SVN`.
 
 ---
@@ -140,38 +141,41 @@
 
 ```text
 d:\GitHub\ElenaGS/
-├── index.html                  # Portal web interactivo y bilingüe (ES / EN)
-├── styles.css                  # Tema ultra-moderno executive dark con paleta violeta/amatista
-├── app.js                      # Motor interactivo: i18n, partículas canvas, filtros timeline
-├── README.md                   # Resumen ejecutivo profesional para GitHub
-├── .nojekyll                   # Soporte para despliegue estático sin procesamiento Jekyll
+├── index.html                     # Portal web interactivo y bilingüe (ES / EN)
+├── styles.css                     # Estilos executive luminous con paleta suave lavanda / pizarra
+├── app.js                         # Motor interactivo: i18n, canvas reactivo, filtros timeline
+├── README.md                      # Perfil profesional para GitHub
+├── .nojekyll                      # Despliegue estático sin procesamiento Jekyll
 ├── assets/
 │   ├── img/
-│   │   └── avatar.jpg          # Fotografía profesional de perfil
+│   │   └── avatar.jpg             # Fotografía profesional de perfil
 │   └── docs/
-│       └── CV_Elena_Garcia_Sanchez.pdf # PDF oficial de 1 página A4 sincronizado
+│       ├── CV_Elena_Garcia_Sanchez.pdf    # CV oficial en PDF (Español, 1 página A4)
+│       └── CV_Elena_Garcia_Sanchez_EN.pdf # CV oficial en PDF (Inglés, 1 página A4)
 └── cv-printable/
-    ├── index.html              # Plantilla dedicada A4 pixel-perfect
-    ├── generate-pdf.bat        # Compilador batch Windows vía Chrome headless
-    ├── README.md               # Documentación del generador de PDF
-    ├── CV_Elena_Garcia_Sanchez.pdf # PDF generado
+    ├── index.html                 # Plantilla A4 pixel-perfect (Español)
+    ├── index-en.html              # Plantilla A4 pixel-perfect (Inglés)
+    ├── generate-pdf.bat           # Compilador batch Windows vía Chrome headless
+    ├── README.md                  # Documentación del generador de PDF
+    ├── CV_Elena_Garcia_Sanchez.pdf    # PDF generado (Español)
+    ├── CV_Elena_Garcia_Sanchez_EN.pdf # PDF generado (Inglés)
     └── assets/
-        ├── avatar.jpg          # Fotografía optimizada para impresión
-        └── qr-portfolio.png    # Código QR vectorial de alta resolución
+        ├── avatar.jpg             # Fotografía optimizada para impresión
+        └── qr-portfolio.png       # Código QR hacia la web interactiva
 ```
 
 ---
 
 ### 🖨️ Compilación del CV Imprimible (1 Página A4)
 
-Para regenerar el documento PDF vectorial estándar de 1 página:
+Para compilar las versiones en PDF vectoriales de 1 página:
 
 ```cmd
 cd cv-printable
 generate-pdf.bat
 ```
 
-El script invoca Chrome/Edge headless, valida el layout en una única página A4 y sincroniza el resultado en `assets/docs/CV_Elena_Garcia_Sanchez.pdf`.
+El script invoca Chrome o Edge headless, compila ambas plantillas (`index.html` e `index-en.html`) garantizando 1 página A4 y sincroniza los PDFs en `assets/docs/`.
 
 ---
 
@@ -186,5 +190,5 @@ El script invoca Chrome/Edge headless, valida el layout en una única página A4
 ---
 
 <p align="center">
-  <sub>© 2026 Elena García Sánchez · Proyecto réplica local creado bajo arquitectura modular de alto impacto.</sub>
+  <sub>© 2026 Elena García Sánchez · Senior Java Backend Engineer · Madrid, España</sub>
 </p>

@@ -24,33 +24,35 @@ const translations = {
       contact: "Contacto"
     },
     hero: {
-      role: "Senior Java Backend Engineer · Enterprise Systems & AI Tools",
+      role: "Senior Java Backend Engineer · Ecosistema Java, Spring Boot & Herramientas de IA",
       status: "En activo · Gob. de Cantabria",
-      pillCompany: "🏢 Plexus Tech · Gob. Cantabria (Actualidad)",
-      pillCore: "☕ Java Backend Specialist · Spring Boot & REST APIs",
-      pillAi: "🤖 Claude, Cursor & Antigravity AI",
-      pillEdu: "🎓 Ing. en Informática de Sistemas (UAH)",
+      pillCompany: "🏢 Plexus Tech · Gob. de Cantabria (Actualidad)",
+      pillCore: "☕ Especialista Backend Java · Spring Boot & APIs REST",
+      pillAi: "🤖 Desarrollo Asistido con IA (Claude & Cursor)",
+      pillEdu: "🎓 Ing. Técnica en Informática de Sistemas (UAH)",
       pillExp: `⚡ +${expYears} años de experiencia`,
-      pillAngular: "💻 Angular (Frontend Secundario)",
+      pillAngular: "💻 Angular (Frontend Complementario)",
       pillLocation: "📍 Madrid / Remoto (España)",
       pillLang: "🌐 Inglés B2 · Español Nativo",
       btnEmail: "Contactar por Email",
       btnLinkedIn: "Perfil de LinkedIn",
       btnGitHub: "GitHub (@ElenaGSSG)",
-      btnPrint: "Descargar CV (PDF)"
+      btnPrint: "Descargar CV (PDF)",
+      cvPdfPath: "assets/docs/CV_Elena_Garcia_Sanchez.pdf",
+      cvPdfName: "CV_Elena_Garcia_Sanchez.pdf"
     },
     summary: {
       tag: "Perfil Profesional",
       title: "Resumen Ejecutivo",
-      p1: `<strong>Ingeniera Técnica en Informática de Sistemas</strong> por la Universidad de Alcalá de Henares (UAH) con más de <strong>${expYears} años de trayectoria continuada</strong> (en activo ininterrumpido desde 2011), especializada como ingeniera de software backend en el desarrollo y evolución de plataformas empresariales críticas.`,
-      p2: `Sólida especialización en el <strong>ecosistema Java backend (Java 6 a 17, Lambdas y Streams)</strong>, frameworks <strong>Spring y Spring Boot</strong>, arquitectura de microservicios y servicios web <strong>REST y SOAP</strong>, optimización avanzada de persistencia y procedimientos en <strong>Oracle SQL / PL-SQL</strong>, y desarrollo frontend complementario con <strong>Angular</strong>. Integración continua de flujos de desarrollo asistido con Inteligencia Artificial mediante <strong>Claude (Anthropic), Cursor IDE y Google Antigravity</strong>.`,
-      p3: `Amplia experiencia técnica en sectores de máxima exigencia operativa y criticidad ciudadana: <strong>Administración Pública</strong> (Gobierno de Cantabria, Seguridad Social), <strong>Banca Internacional</strong> (Deutsche Bank) y <strong>Telecomunicaciones</strong> (Orange), participando activamente en el ciclo de vida del software, diseño técnico, testing riguroso y despliegues productivos.`,
+      p1: `<strong>Ingeniera Técnica en Informática de Sistemas</strong> por la Universidad de Alcalá de Henares (UAH), con más de <strong>${expYears} años de experiencia profesional</strong> en ingeniería de software y desarrollo backend (en activo desde 2011).`,
+      p2: `Especializada en el <strong>ecosistema Java (desde Java 6 hasta Java 17, Lambdas y Streams)</strong>, arquitectura de microservicios con <strong>Spring y Spring Boot</strong>, diseño e integración de servicios <strong>REST y SOAP</strong>, y optimización sobre bases de datos relacionales en <strong>Oracle SQL y PL/SQL</strong>. Cuento además con experiencia en desarrollo frontend complementario con <strong>Angular</strong> para aplicaciones corporativas, e integro herramientas modernas de Inteligencia Artificial (<strong>Claude, Cursor y Google Antigravity</strong>) para acelerar refactorizaciones, generación de pruebas unitarias y calidad del código.`,
+      p3: `A lo largo de mi trayectoria he trabajado en entornos de gran envergadura y alta exigencia técnica en el <strong>sector público</strong> (Gobierno de Cantabria y Seguridad Social), <strong>banca internacional</strong> (Deutsche Bank) y <strong>telecomunicaciones</strong> (Orange), participando activamente en el análisis técnico, desarrollo, pruebas de integración y despliegues en producción.`,
       metricExpVal: `+${expYears}`,
-      metricExpLbl: "Años de Trayectoria",
+      metricExpLbl: "Años de Experiencia",
       metricCoreVal: "Java & Spring Boot",
       metricCoreLbl: "Especialidad Core Backend",
       metricSqlVal: "Oracle SQL & PL-SQL",
-      metricSqlLbl: "Persistencia & Bases de Datos",
+      metricSqlLbl: "Bases de Datos & Persistencia",
       metricCritVal: "Claude & Cursor AI",
       metricCritLbl: "Desarrollo Asistido con IA"
     },
@@ -68,33 +70,33 @@ const translations = {
         role: "Desarrolladora Senior Backend en Gobierno de Cantabria (Puntal)",
         company: "Plexus Tech · Jornada completa · Remoto",
         date: "Oct. 2024 — Actualidad",
-        b1: "<strong>Análisis funcional y técnico:</strong> Toma y definición de requisitos, elaboración de especificaciones de casos de uso y diseño y ejecución rigurosa de planes de pruebas de integración para el sistema corporativo Puntal.",
-        b2: "<strong>Desarrollo Backend & Core:</strong> Servicios y microservicios backend con <strong>Java y Spring Boot</strong>, junto con desarrollo y mantenimiento de vistas reactivas complementarias en <strong>Angular</strong>.",
-        b3: "<strong>Optimización y Persistencia SQL:</strong> Modelado relacional, diseño y optimización de consultas complejas y procedimientos sobre bases de datos <strong>Oracle SQL</strong> de alta disponibilidad."
+        b1: "<strong>Análisis funcional y técnico:</strong> Toma de requisitos, definición de especificaciones y casos de uso, y diseño y ejecución de planes de pruebas de integración para la plataforma de gestión corporativa Puntal.",
+        b2: "<strong>Desarrollo Backend:</strong> Implementación de servicios y microservicios en <strong>Java con Spring Boot</strong>, junto con el soporte y evolución de vistas complementarias en <strong>Angular</strong>.",
+        b3: "<strong>Bases de Datos & Persistencia:</strong> Modelado relacional, diseño y optimización de consultas complejas y procedimientos sobre bases de datos <strong>Oracle SQL</strong>."
       },
       seguridadsocial: {
         role: "Analista Desarrolladora Java en Seguridad Social",
         company: "Inetum / GrupoSolutia · Jornada completa · Madrid / Remoto",
         date: "Ene. 2020 — Oct. 2024 (4 años 10 meses)",
-        b1: "<strong>Desarrollo en marco AGILE:</strong> Análisis, diseño técnico y desarrollo integral de aplicaciones corporativas Java en entorno Scrum de alta criticidad ciudadana.",
-        b2: "<strong>Modernización Java:</strong> Refactorización funcional de módulos legados incorporando expresiones Lambda, streams y buenas prácticas de concurrencia y mantenibilidad.",
-        b3: "<strong>Control de calidad y testing:</strong> Ejecución de suites completas de pruebas unitarias e integración en ALM y auditoría estática de calidad y vulnerabilidades con Kiuwan."
+        b1: "<strong>Desarrollo ágil (Scrum):</strong> Análisis y desarrollo de aplicativos corporativos Java para la Seguridad Social, trabajando en sprints quincenales y entregas continuas.",
+        b2: "<strong>Modernización Java:</strong> Refactorización y evolución de módulos legados a versiones modernas de Java, incorporando expresiones Lambda, streams y concurrencia eficiente.",
+        b3: "<strong>Control de calidad y pruebas:</strong> Mantenimiento y ejecución de suites de pruebas con HP ALM, y auditoría de calidad y vulnerabilidades de código con Kiuwan."
       },
       deutsche: {
         role: "Analista Desarrolladora de Aplicaciones Bancarias en Deutsche Bank",
         company: "CGI · Jornada completa · Madrid",
         date: "Ene. 2018 — Ene. 2020 (2 años)",
-        b1: "<strong>Ciclo completo de vida de aplicaciones bancarias:</strong> Toma de requerimientos técnicos directamente con stakeholders de la entidad, diseño evolutivo y testing exhaustivo.",
-        b2: "<strong>Despliegues y Mantenimiento:</strong> Gestión de despliegues en preproducción y producción en entornos Unix con control de versiones SVN e incidencias en ServiceNow.",
-        b3: "<strong>Colaboración técnica e integración:</strong> Soporte de nivel especializado, resolución ágil de incidencias en entornos transaccionales y trabajo conjunto con equipos multidisciplinares."
+        b1: "<strong>Aplicaciones bancarias core:</strong> Toma de requisitos directamente con usuarios de negocio, desarrollo de evolutivos y pruebas funcionales en sistemas transaccionales.",
+        b2: "<strong>Operación y despliegues:</strong> Gestión de despliegues en entornos Unix, control de versiones con SVN y seguimiento de incidencias con ServiceNow.",
+        b3: "<strong>Soporte y coordinación:</strong> Resolución de incidencias en producción y coordinación técnica con equipos de infraestructura y arquitectura."
       },
       orange: {
         role: "Ingeniera de Desarrollo & Testing QA en Telecomunicaciones (Orange)",
         company: "CGI · Jornada completa · Madrid",
         date: "Jun. 2011 — Ene. 2018 (6 años 7 meses)",
-        b1: "<strong>Desarrollo evolutivo y correctivo:</strong> Análisis técnico e implementación de requerimientos en plataformas críticas de facturación y gestión operativa de telecomunicaciones.",
-        b2: "<strong>Aseguramiento de Calidad (QA Testing):</strong> Creación, diseño y ejecución sistemática de planes y casos de prueba para garantizar la fiabilidad del software en producción.",
-        b3: "<strong>Ecosistema Tecnológico:</strong> Mantenimiento y evolución sobre Java, Spring, bases de datos relacionales SQL / PL-SQL, Powerbuilder, C++ y entornos Unix."
+        b1: "<strong>Desarrollo y mantenimiento:</strong> Análisis técnico, corrección de incidencias y desarrollo de evolutivos en plataformas de facturación y gestión operativa de telecomunicaciones.",
+        b2: "<strong>Aseguramiento de Calidad (QA):</strong> Diseño, preparación de datos de prueba y ejecución sistemática de baterías de test funcionales antes de despliegues productivos.",
+        b3: "<strong>Ecosistema tecnológico heterogéneo:</strong> Mantenimiento y evolución sobre Java, Spring, PL/SQL, Powerbuilder, C++ y entornos Unix."
       }
     },
     skills: {
@@ -103,7 +105,7 @@ const translations = {
       backendTitle: "Arquitectura Backend & Core Java",
       aiTitle: "IA & Desarrollo Asistido",
       dataTitle: "Bases de Datos & SQL",
-      frontTitle: "Frontend Secundario & Web",
+      frontTitle: "Frontend Complementario & Web",
       devopsTitle: "DevOps, QA & Metodologías"
     },
     education: {
@@ -111,16 +113,16 @@ const translations = {
       title: "Formación & Certificaciones",
       degreeTitle: "Ingeniería Técnica en Informática de Sistemas",
       degreeSchool: "Universidad de Alcalá de Henares (UAH) · 2014",
-      degreeDesc: "Sólida formación en fundamentos computacionales, algoritmia, sistemas distribuidos, bases de datos y arquitectura de software.",
-      coursesTitle: "+50 Cursos Técnicos Especializados",
+      degreeDesc: "Fundamentos de la computación, algoritmia, sistemas operativos, bases de datos y arquitectura de software.",
+      coursesTitle: "+50 Cursos Técnicos Acreditados",
       coursesSchool: "OpenWebinars · Udemy · Coursera · Tutellus · MiriadaX (2014 — Actualidad)",
-      coursesDesc: "Formación continuada y actualización constante en tecnologías backend Java, Spring Boot, microservicios, seguridad, frontend y bases de datos.",
+      coursesDesc: "Formación continua y actualización constante en tecnologías backend Java, Spring Boot, microservicios, seguridad y buenas prácticas de desarrollo.",
       webTitle: "Desarrollo Web con HTML5 y Visual Studio",
       webSchool: "Especialización Acreditada (30 horas)",
-      webDesc: "Maquetación moderna, diseño web semántico, accesibilidad, integración cliente-servidor y estándares web W3C.",
+      webDesc: "Maquetación semántica, diseño web moderno, accesibilidad, integración cliente-servidor y estándares W3C.",
       gameTitle: "Especialización en Gráficos 3D, Simulación y Videojuegos",
       gameSchool: "Universidad de Alcalá de Henares (UAH) · 195 horas acreditadas",
-      gameDesc: "Introducción y técnicas avanzadas en motores gráficos, realidad virtual, modelado 3D y algoritmia espacial interactiva."
+      gameDesc: "Introducción y técnicas en motores gráficos, realidad virtual, modelado 3D y algoritmia espacial interactiva."
     },
     contact: {
       tag: "Comunicación",
@@ -145,33 +147,35 @@ const translations = {
       contact: "Contact"
     },
     hero: {
-      role: "Senior Java Backend Engineer · Enterprise Systems & AI Tools",
+      role: "Senior Java Backend Engineer · Java Ecosystem, Spring Boot & AI Tools",
       status: "Active · Gov. of Cantabria",
       pillCompany: "🏢 Plexus Tech · Gov. of Cantabria (Present)",
       pillCore: "☕ Java Backend Specialist · Spring Boot & REST APIs",
-      pillAi: "🤖 Claude, Cursor & Antigravity AI",
+      pillAi: "🤖 AI-Assisted Development (Claude & Cursor)",
       pillEdu: "🎓 B.S. in Computer Systems Engineering (UAH)",
       pillExp: `⚡ +${expYears} years of experience`,
-      pillAngular: "💻 Angular (Secondary Frontend)",
+      pillAngular: "💻 Angular (Complementary Frontend)",
       pillLocation: "📍 Madrid / Remote (Spain)",
       pillLang: "🌐 English B2 · Spanish Native",
       btnEmail: "Contact via Email",
       btnLinkedIn: "LinkedIn Profile",
       btnGitHub: "GitHub (@ElenaGSSG)",
-      btnPrint: "Download Resume (PDF)"
+      btnPrint: "Download CV (PDF)",
+      cvPdfPath: "assets/docs/CV_Elena_Garcia_Sanchez_EN.pdf",
+      cvPdfName: "CV_Elena_Garcia_Sanchez_EN.pdf"
     },
     summary: {
       tag: "Professional Profile",
       title: "Executive Summary",
-      p1: `<strong>Computer Systems Engineer</strong> graduated from Universidad de Alcalá de Henares (UAH) with over <strong>${expYears} years of continuous professional trajectory</strong> (continuously active since 2011), specialized as a backend software engineer developing and scaling mission-critical enterprise platforms.`,
-      p2: `Strong specialization in the <strong>Java backend ecosystem (Java 6 to 17, Lambdas, and Streams)</strong>, <strong>Spring & Spring Boot</strong> frameworks, microservices and <strong>REST / SOAP</strong> web services, advanced database tuning and procedures in <strong>Oracle SQL / PL-SQL</strong>, and complementary frontend engineering with <strong>Angular</strong>. Active integration of AI-assisted software engineering workflows utilizing <strong>Claude (Anthropic), Cursor IDE, and Google Antigravity</strong>.`,
-      p3: `Extensive technical experience in mission-critical environments: <strong>Public Administration</strong> (Government of Cantabria, Social Security), <strong>International Banking</strong> (Deutsche Bank), and <strong>Telecommunications</strong> (Orange), actively contributing across the full software lifecycle, technical design, rigorous QA testing, and production deployments.`,
+      p1: `<strong>Computer Systems Engineer</strong> graduated from Universidad de Alcalá de Henares (UAH) with over <strong>${expYears} years of professional experience</strong> in software engineering and backend development (active since 2011).`,
+      p2: `Specialized in the <strong>Java ecosystem (Java 6 through 17, Lambdas, and Streams)</strong>, microservices architecture with <strong>Spring and Spring Boot</strong>, <strong>REST APIs and SOAP web services</strong>, and relational database optimization with <strong>Oracle SQL and PL/SQL</strong>. Experienced in building complementary frontend interfaces with <strong>Angular</strong> and actively leveraging AI-assisted development workflows (<strong>Claude, Cursor, and Google Antigravity</strong>) to accelerate refactoring, unit test creation, and code quality.`,
+      p3: `Proven track record in high-impact enterprise environments across <strong>public administration</strong> (Government of Cantabria, Social Security), <strong>international banking</strong> (Deutsche Bank), and <strong>telecommunications</strong> (Orange), contributing across technical analysis, core backend development, integration testing, and production releases.`,
       metricExpVal: `+${expYears}`,
       metricExpLbl: "Years of Experience",
       metricCoreVal: "Java & Spring Boot",
       metricCoreLbl: "Core Backend Specialty",
       metricSqlVal: "Oracle SQL & PL-SQL",
-      metricSqlLbl: "Database Persistence",
+      metricSqlLbl: "Databases & Persistence",
       metricCritVal: "Claude & Cursor AI",
       metricCritLbl: "AI-Assisted Engineering"
     },
@@ -189,33 +193,33 @@ const translations = {
         role: "Senior Backend Developer at Government of Cantabria (Puntal)",
         company: "Plexus Tech · Full-time · Remote",
         date: "Oct. 2024 — Present",
-        b1: "<strong>Functional & Technical Analysis:</strong> Requirements gathering, use case specification, and thorough design and execution of integration test plans for the Puntal public management platform.",
-        b2: "<strong>Backend & Core Engineering:</strong> Developing backend services and microservices in <strong>Java and Spring Boot</strong>, with complementary reactive frontend interfaces in <strong>Angular</strong>.",
-        b3: "<strong>SQL Optimization & Persistence:</strong> Relational modeling, query optimization, and complex procedures on high-availability <strong>Oracle SQL</strong> databases."
+        b1: "<strong>Functional & Technical Analysis:</strong> Requirements gathering, use case specification, and integration test planning for the Puntal public management platform.",
+        b2: "<strong>Backend Development:</strong> Implementing core services and microservices in <strong>Java with Spring Boot</strong>, alongside complementary frontend views in <strong>Angular</strong>.",
+        b3: "<strong>Databases & Persistence:</strong> Relational modeling, query optimization, and complex procedures on <strong>Oracle SQL</strong> databases."
       },
       seguridadsocial: {
         role: "Java Analyst & Software Developer at Social Security Administration",
         company: "Inetum / GrupoSolutia · Full-time · Madrid / Remote",
         date: "Jan. 2020 — Oct. 2024 (4 yrs 10 mos)",
-        b1: "<strong>AGILE Development:</strong> Analysis, technical architecture, and development of mission-critical citizen-facing Java applications within an Agile (Scrum) framework.",
-        b2: "<strong>Java Modernization:</strong> Refactoring legacy modules with Lambda expressions, streams, and enterprise concurrency best practices.",
-        b3: "<strong>Quality Assurance & Testing:</strong> Full test suite execution with HP ALM and static code analysis and security auditing with Kiuwan."
+        b1: "<strong>Agile Development (Scrum):</strong> Analysis and development of citizen-facing Java applications for Social Security, operating in bi-weekly sprints.",
+        b2: "<strong>Java Modernization:</strong> Refactoring legacy modules to modern Java standards using Lambda expressions, streams, and concurrency best practices.",
+        b3: "<strong>Quality Assurance:</strong> Maintaining and executing test suites with HP ALM, and conducting static code analysis and vulnerability auditing with Kiuwan."
       },
       deutsche: {
         role: "Banking Software Applications Analyst at Deutsche Bank",
         company: "CGI · Full-time · Madrid",
         date: "Jan. 2018 — Jan. 2020 (2 years)",
-        b1: "<strong>End-to-End Banking Applications:</strong> Direct requirement gathering with corporate banking stakeholders, evolutionary development, and rigorous testing.",
-        b2: "<strong>Deployments & Maintenance:</strong> CI/CD and deployment management in pre-production and production Unix environments with SVN and ServiceNow ticketing.",
-        b3: "<strong>Technical Collaboration & Integration:</strong> Specialized technical support, resolving incidents in high-concurrency transactional environments, and close alignment with cross-functional teams."
+        b1: "<strong>Core Banking Applications:</strong> Direct requirement gathering with business stakeholders, evolutionary development, and functional testing on transactional systems.",
+        b2: "<strong>Operations & Deployments:</strong> Deployment management in Unix environments, SVN version control, and incident tracking via ServiceNow.",
+        b3: "<strong>Support & Collaboration:</strong> Production issue troubleshooting and cross-functional collaboration with infrastructure and architecture teams."
       },
       orange: {
         role: "Software Development & QA Testing Engineer at Orange Telecom",
         company: "CGI · Full-time · Madrid",
         date: "Jun. 2011 — Jan. 2018 (6 yrs 7 mos)",
-        b1: "<strong>Evolutionary & Corrective Engineering:</strong> Technical design and feature implementation in telecom billing and operational core platforms.",
-        b2: "<strong>Quality Assurance & Testing:</strong> Designing, drafting, and systematically running functional test suites to ensure maximum release stability.",
-        b3: "<strong>Core Tech Stack:</strong> Maintenance and enhancements using Java, Spring, SQL / PL-SQL, Powerbuilder, C++, and Unix environments."
+        b1: "<strong>Development & Maintenance:</strong> Technical analysis, bug fixing, and feature enhancements for telecom billing and operational platforms.",
+        b2: "<strong>Quality Assurance (QA):</strong> Designing test scenarios, preparing test datasets, and systematically executing functional test suites prior to production releases.",
+        b3: "<strong>Heterogeneous Tech Stack:</strong> Maintenance and evolution across Java, Spring, PL/SQL, Powerbuilder, C++, and Unix environments."
       }
     },
     skills: {
@@ -224,7 +228,7 @@ const translations = {
       backendTitle: "Backend Architecture & Core Java",
       aiTitle: "AI & Assisted Engineering",
       dataTitle: "Databases & SQL Engineering",
-      frontTitle: "Secondary Frontend & Web",
+      frontTitle: "Complementary Frontend & Web",
       devopsTitle: "DevOps, QA & Agile Methodologies"
     },
     education: {
@@ -232,13 +236,13 @@ const translations = {
       title: "Education & Certifications",
       degreeTitle: "B.S. in Computer Systems Engineering",
       degreeSchool: "Universidad de Alcalá de Henares (UAH) · 2014",
-      degreeDesc: "Comprehensive engineering curriculum in computer fundamentals, algorithms, distributed systems, relational databases, and enterprise software architecture.",
+      degreeDesc: "Comprehensive foundations in computer science, algorithms, operating systems, relational databases, and enterprise software architecture.",
       coursesTitle: "+50 Accredited Technical Certifications",
       coursesSchool: "OpenWebinars · Udemy · Coursera · Tutellus · MiriadaX (2014 — Present)",
-      coursesDesc: "Continuous learning and professional specialization in Java backend ecosystems, Spring Boot, REST APIs, security, and cloud architectures.",
+      coursesDesc: "Continuous professional learning in Java backend ecosystems, Spring Boot, microservices, security, and clean code practices.",
       webTitle: "Modern Web Development with HTML5 & Visual Studio",
       webSchool: "Accredited Specialization (30 hours)",
-      webDesc: "Semantic web layout, accessibility, responsive UI, client-server integration, and W3C industry standards.",
+      webDesc: "Semantic web layout, modern UI design, accessibility, client-server integration, and W3C industry standards.",
       gameTitle: "Specialization in 3D Graphics, Simulation & Games",
       gameSchool: "Universidad de Alcalá de Henares (UAH) · 195 accredited hours",
       gameDesc: "Introductory and advanced techniques in rendering engines, virtual reality, 3D modeling, and interactive spatial algorithms."
@@ -260,7 +264,9 @@ const translations = {
 };
 
 // 3. Language State & Switcher
-let currentLang = localStorage.getItem('elenags_lang') || 'es';
+const urlParams = new URLSearchParams(window.location.search);
+const langParam = urlParams.get('lang');
+let currentLang = (langParam === 'en' || langParam === 'es') ? langParam : (localStorage.getItem('elenags_lang') || 'es');
 
 function setLanguage(lang) {
   if (!translations[lang]) return;
@@ -299,7 +305,12 @@ function setLanguage(lang) {
   document.getElementById('btn-hero-email').innerHTML = `<span>✉️</span> ${t.hero.btnEmail}`;
   document.getElementById('btn-hero-linkedin').innerHTML = `<span>💼</span> ${t.hero.btnLinkedIn}`;
   document.getElementById('btn-hero-github').innerHTML = `<span>🐙</span> ${t.hero.btnGitHub}`;
-  document.getElementById('btn-hero-print').innerHTML = `<span>📥</span> ${t.hero.btnPrint}`;
+  const btnPrint = document.getElementById('btn-hero-print');
+  if (btnPrint) {
+    btnPrint.innerHTML = `<span>📥</span> ${t.hero.btnPrint}`;
+    if (t.hero.cvPdfPath) btnPrint.setAttribute('href', t.hero.cvPdfPath);
+    if (t.hero.cvPdfName) btnPrint.setAttribute('download', t.hero.cvPdfName);
+  }
 
   // Summary
   document.getElementById('summary-tag').textContent = t.summary.tag;
